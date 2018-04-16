@@ -37,9 +37,10 @@ Example:
 
 ### Hosting Plan
 
-We will host the website on Heroku.
 
 [What is your plan for hosting your client's website?]
+
+We will host the website on Heroku.
 
 ### Client's Edits
 
