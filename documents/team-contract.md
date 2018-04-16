@@ -32,9 +32,8 @@ Aaliya Khan avk46
 
 
 4. By what means and how frequently will we meet or communicate?
--Facebook Messenger
--Twice a Week
-
+- Facebook Messenger - Daily updates on our progress of the website; message each time we push to avoid git conflicts.
+- In person meeting 2-3 times a week in campus
 
 5. How will we communicate and work with our client?
 
@@ -46,31 +45,38 @@ Aaliya Khan avk46
 
 -Everyone does code work/ CSS together
 
-PJ:-Client Communication,
-April:-Wireframes
-Iris: -Keeping up with deadlines
-Aaliya: -Debugging
+PJ: - Client Communication - Responsible for sending client updates weekly (wireframes, drafts); Interacting with clients for any features they want added, any features we have trouble implementing, and any features we want to add.
+
+April: - Making sure all requirements for both project and client are met - In charge of resolving requirement conflicts and distributing features to each individual.
+
+Iris: - Managing deadlines - Responsible for making sure individual deadlines are set after each meeting, checking that each individual met deadlines at the beginning of meetings, and keeping track of who missed which deadlines.
+
+Aaliya: - Debugging/Website Design - Responsible for testing out the website and trying to break it. Also responsible for making sure the website is cohesive and each individual's work complements each others.
 
 
 7. How will we hold ourselves and one another accountable? What (exactly) will we say to a team member who appears not to be contributing equally? To a team member who fails to deliver what was promised?
 
--We will be open with one another and remind each other of the tasks they have committed to
+- We will be open with one another and remind each other of the tasks they have committed to.
+- Have strict internal deadlines - deadlines will be frequent so we can note who is falling behind and remind them.
+- During our in person meetings 2-3 times a week, we will check on individual deadlines. We will point out and talk to each person who hasn't met their deadline. We will not lower any individual's workload / assignment if they missed their deadline. They are responsible for catching up and meeting the next deadline.
+- If two deadlines are missed in a row (one week of work), they will be assigned to a lesser, non-essential role, and this issue will be brought to a mediator. They will potentially be removed from the group ( their name will not be on the submission).
 
 
 
 8. What do we do when we disagree? What approach to conflict to we all agree to uphold?
 
--Come to a consensus through discussion
--Discuss pro and cons
--Utilize FB Messenger anonymous 'poll' feature
+- Call an in-person meeting or Skype call   
+- Come to a consensus through discussion   
+- Discuss pro and cons  
+- Utilize FB Messenger anonymous 'poll' feature
 
 
 9. What are our procedures for re-visiting this contract?
--If 2 or more team members think something should be revised, we will revisit this contract
+- If 2 or more team members think something should be revised, we will revisit this contract.
 
 
 10. What else do we want to include in this contract? (Think about a *fun* clause... not everything is always about work! Sometimes you need to celebrate your accomplishments!)
--After every deadline we will treat ourselves (with coffee, or other snacks)
+- After every major deadline we will treat ourselves (with coffee, or other snacks).
 
 
 ## Using your Contract
