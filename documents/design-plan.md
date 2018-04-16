@@ -37,11 +37,14 @@ Example:
 
 ### Hosting Plan
 
+We will host the website on Heroku.
+
 [What is your plan for hosting your client's website?]
 
 ### Client's Edits
 
 [Does the client need the ability to edit the site after the end of the semester? If **Yes**, tell us how you site fit your client's need. If **No**, write down N/A.]
+Yes they will edit the site, we will send them our files so they can edit the code and content themselves.
 
 ### Information Architecture, Content, and Navigation
 
@@ -52,42 +55,55 @@ Example:
 Example:
 * Content #1
   * **Main Navigation** (List your site's navigation here.)
-    * Portfolio
+    * Home
   * **Sub-Categories** (List any sub-categories of under the main navigation.)
-    * Websites
-    * Mobile Apps
-    * Tablets
+    * Products
+    * Applications
+    * Blogs
+    * Contact
   * **Content** (List all the content corresponding to main navigation and sub-categories.)
-    * *Portfolio*: list all the projects (as images) this client has worked on. When the image is hovered over, display a description of the project; add a search function to enable users search for specific projects;
-    * *Websites*: showcase all the websites designed by the client, with thumbnail images and a brief description for each design;
-    * *Mobile Apps*: showcase all the mobile apps designed by the client, with thumbnail images and a brief description for each design;
-    * *Tablets*: showcase all the tablet applications designed by the client, with thumbnail images and a brief description for each design;
+    * *Home*: Intro to company and company profile
+    * *Products*: Description of their products which are computer chips
+    * *Application*: Instruction for how to use your product
+    * *Blogs*: Log in/ Log out to comment and add blog entries, list of all blog entries
+    * *Contact*: Form for contact, other contact information
 
 ### Interactivity
+* Log in and Log out to upload a blog and to comment.
+* Commenting
+* Send in contact form
 
-[What interactive features will your site have? What PHP elements will you include?]
-
-[Much of this is up to you, however, implementing a login system is **required**. Logging in should not be required to view the site, however it must unlock extra functionality, e.g., admin functionality, comment posting, etc.]
-
-[Also, describe how the interactivity connects with the needs of the clients/target audience.]
+Target audience wants to see reviews for products; log in and log out gives credibility to the source of the reviewers
+Audience can use contact form to ask questions
 
 ### External Code
 
-[What libraries (e.g. editor.js, jQuery Cookie, Image Sliders, jQuery) are you planning to use for the site? What do you have to do to incorporate those libraries? How much of your own code will satisfy the project requirements?]
+* Cookie
+* Javascript
+
+Cookies will only be used for 3-5% of the project. The rest will be our own code.
 
 ### Scale
 
-[How large will the site be (approximate number of pages) and how many hours of work will be required to complete it?]
+6 pages, 10 hours per page.
 
 ## Milestone 1, Part IV: Work Distribution
 
 [Describe how each of your responsibilities will be distributed among your group members.]
+1. Iris: Communicating with client for their wants and Needs (deadline: 4/17/2018)
+2. Together draw wireframes (deadlines: 4/23/2018)
+3.  Iris: Home, Contact
+    April: Product
+    PJ: Blog
+    Aaliya: Application
 
-[Set internal deadlines. Determine your internal dependencies. Whose task needs to be completed first in order for another person's task to be relevant? Be specific in your task descriptions so that everyone knows what needs to be done and can track the progress effectively. Consider how much time will be needed to review and integrate each other's work. Most of all, make sure that tasks are balanced across the team.]
+    Internal deadline for these pages: 5/1/2018
+4. Work on CSS together
+
 
 ## Milestone 1, Part V: Additional Comments
 
-[If you feel like you haven't fully explained your design choices, or if you want to explain some other functions in your site (such as special design decisions that might not meet the final project requirements), you can use this space to justify your design choices or ask other questions about the project and process.]
+Subject to change due to client requests. 
 
 
 
