@@ -103,7 +103,7 @@ Cookies will only be used for 3-5% of the project. The rest will be our own code
 
 ## Milestone 1, Part V: Additional Comments
 
-Subject to change due to client requests. 
+Subject to change due to client requests.
 
 
 
