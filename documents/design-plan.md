@@ -85,9 +85,7 @@ Cookies will only be used for 3-5% of the project. The rest will be our own code
 6 pages, 10 hours per page.
 
 ## Milestone 1, Part IV: Work Distribution
-
-[Describe how each of your responsibilities will be distributed among your group members.]
-1. Iris: Communicating with client for their wants and Needs (deadline: 4/17/2018)
+1. April: Communicating with client for their wants and Needs (deadline: 4/17/2018)
 2. Together draw wireframes (deadlines: 4/23/2018)
 3.  Iris: Home, Contact
     April: Product
