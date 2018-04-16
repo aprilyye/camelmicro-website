@@ -12,28 +12,38 @@ Your Team Name: Green Lion
 
 ## Milestone 1, Part III: Client Requirements
 
+   What kind of website do you want? What are your key goals?
+       This website tells our customer or potential customer who we are and what our products can do. It also serve as an information center that user can find technical documents to help them use our products, and exchange ideas with engineers of our company and other users.
+
+  Tell us about the potential audience for this website. How, when, and where would they interact with the website?
+      The users are engineer and marketing person. The most place they interact with the website would be the blog section.
+
+  Tell us the purpose of the website and what it is all about
+      The purpose of the website is to tell people who we are and what we do.
+
 ### Target Audience(s)
 
-[Tell us about the potential audience for this website. How, when, and where would they interact with the website? Get as much detail as possible from the client to help you find representative users.]
+The users are engineer and marketing person. The most place they interact with the website would be the blog section.
+
 
 ### Purpose & Content
 
-[Tell us the purpose of the website and what it is all about.]
+The purpose of the website is to tell people who we are and what we do.
 
 ### Needs and Wants
 
-[Collect your client's and target audience's needs and wants for the website. Come up with several appropriate design ideas on how those needs may be met. In the **Memo** field, justify your ideas and add any additional comments you have. There is no specific number of needs required for this, but you need enough to do the job.]
+This website tells our customer or potential customer who we are and what our products can do. It also serve as an information center that user can find technical documents to help them use our products, and exchange ideas with engineers of our company and other users.
 
-Example:
-* Needs/Wants #1
+* Needs/Wants 
   * **Needs and Wants** (What does your client and audience need and want?)
-    * Client wants to cater to people who speak different languages.
+    * Search bar for techincal documents
+    * Information center
+    * Exchange ideas with engineers and other users
   * **Design Ideas and Choices** (How will you meet those needs and wants?)
-    * Create web-pages manually in multiple languages.
-    * Use google translate to auto-translate the site on the fly.
+    * Chinese version of this website
+    * Use google translate to auto-translate the site
   * **Memo** (Justify your decisions; additional notes.)
     * Creating multiple pages manually would require manual skills, effort and time that we do not have.
-    * Using auto-translate using Google-Translate API is an easier way to go. Plus, we would like to learn the Google Translate API.
 
 ### Hosting Plan
 
@@ -44,7 +54,7 @@ We will host the website on Heroku.
 ### Client's Edits
 
 [Does the client need the ability to edit the site after the end of the semester? If **Yes**, tell us how you site fit your client's need. If **No**, write down N/A.]
-Yes they will edit the site, we will send them our files so they can edit the code and content themselves.
+**Yes** they will edit the site, we will send them our files so they can edit the code and content themselves.
 
 ### Information Architecture, Content, and Navigation
 
