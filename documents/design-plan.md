@@ -44,24 +44,20 @@ We will host the website on Heroku.
 
 ### Client's Edits
 
-[Does the client need the ability to edit the site after the end of the semester? If **Yes**, tell us how you site fit your client's need. If **No**, write down N/A.]
 **Yes** they will edit the site, we will send them our files so they can edit the code and content themselves.
 
 ### Information Architecture, Content, and Navigation
-
-[Lay out the plan for how you'll organize the site and which content will go where. Note any content (e.g., text, image) that you need to make/get from the client.]
-
-[Note: As with the Needs and Wants table, there is no specific amount to write here. You simply need enough content to do the job.]
 
 Example:
 * Content #1
   * **Main Navigation** (List your site's navigation here.)
     * Home
-  * **Sub-Categories** (List any sub-categories of under the main navigation.)
     * Products
     * Applications
     * Blogs
     * Contact
+  * **Sub-Categories** (List any sub-categories of under the main navigation.)
+    * N/A
   * **Content** (List all the content corresponding to main navigation and sub-categories.)
     * *Home*: Intro to company and company profile
     * *Products*: Description of their products which are computer chips
