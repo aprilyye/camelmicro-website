@@ -34,9 +34,9 @@ The purpose of the website is to tell people who we are and what we do.
 
 This website tells our customer or potential customer who we are and what our products can do. It also serve as an information center that user can find technical documents to help them use our products, and exchange ideas with engineers of our company and other users.
 
-* Needs/Wants 
+* Needs/Wants
   * **Needs and Wants** (What does your client and audience need and want?)
-    * Search bar for techincal documents
+    * Search bar for technical documents
     * Information center
     * Exchange ideas with engineers and other users
   * **Design Ideas and Choices** (How will you meet those needs and wants?)
