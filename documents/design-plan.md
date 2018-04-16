@@ -6,20 +6,10 @@ Your Team Name: Green Lion
 
 ### Client Description
 
-[Tell us about your client. Who is your client? What kind of website do they want? What are their key goals?]
-
-[NOTE: If you are redesigning an existing website, give us the current URL and some screenshots of the current site. Tell us how you plan to update the site in a significant way that meets the final project requirements.]
+Camel Micro:
+Camel microelectronics is a fabless integrated circuit design company with focus on 32bit  MCU(micro-controller unit) products for medical, industrial automation, instrument, automotive, electronic and IoT (Internet of Things) devices.  Camel microelectronics is headquartered in Shanghai, China. Camel microelectronics also has R&D center in silicon valley, USA.  Camel microelectronics provides, world class performance, quality and cost, 32bit MCU solutions to medical appliance, advanced motor control, industrial automation, and IoT devices.
 
 ## Milestone 1, Part III: Client Requirements
-
-   What kind of website do you want? What are your key goals?
-       This website tells our customer or potential customer who we are and what our products can do. It also serve as an information center that user can find technical documents to help them use our products, and exchange ideas with engineers of our company and other users.
-
-  Tell us about the potential audience for this website. How, when, and where would they interact with the website?
-      The users are engineer and marketing person. The most place they interact with the website would be the blog section.
-
-  Tell us the purpose of the website and what it is all about
-      The purpose of the website is to tell people who we are and what we do.
 
 ### Target Audience(s)
 
