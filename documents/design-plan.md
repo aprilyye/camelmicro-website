@@ -29,11 +29,16 @@ This website tells our customer or potential customer who we are and what our pr
     * Search bar for technical documents
     * Information center
     * Exchange ideas with engineers and other users
-  * **Design Ideas and Choices** (How will you meet those needs and wants?)
     * Chinese version of this website
-    * Use google translate to auto-translate the site
+  * **Design Ideas and Choices** (How will you meet those needs and wants?)
+    * We will probably use a form for search
+    * the blog post will allow for exchange of ideas with users
+    * We will be using google translate to help make a Chinese version of the website. We will have a toggle button on the home page. If users pick Chinese Version we will link them to a new set of links on the navigation bar that leads to Chinese pages.
+
   * **Memo** (Justify your decisions; additional notes.)
-    * Creating multiple pages manually would require manual skills, effort and time that we do not have.
+    * We will be using a form for search as we did before.
+    * The blog post is due to the request of the client and it also helps us implement the login and upload functions.
+    * The Chinese toggle is at the request of the client and it using different a-href links in general rather than having an option to translate each page individually because it would be confusing for users to have to find the translate button on each page. In general, if they want one page translated, each page would be.
 
 ### Hosting Plan
 
@@ -87,13 +92,32 @@ Cookies will only be used for 3-5% of the project. The rest will be our own code
 ## Milestone 1, Part IV: Work Distribution
 1. April: Communicating with client for their wants and Needs (deadline: 4/17/2018)
 2. Together draw wireframes (deadlines: 4/23/2018)
-3.  Iris: Home, Contact
-    April: Product
-    PJ: Blog
-    Aaliya: Application
+3. Work on includes together in person (deadline: 4/25/2018)
+  * Header - Navigation bar + Toggle button
+      * Search option in the header
+  * Footer - Company Logo
+  * Init - Pages information
+4. We will each do a page of the website - just code and implementation; no design
+  *  Iris
+     * Home
+        * Description of the website
+        * Toggle button for translation
+     * Contact Us
+        * Form that automatically sends email out to company with information provided on the form
+  *  April
+    * Product
+       * Description of the product with image gallery
+  * PJ
+    * Blog
+      * Upload for files and comments
+      * log in / log out function
+  * Aaliya
+    * Application
+      * Image gallery with links to each application of the product the client wants.
 
     Internal deadline for these pages: 5/1/2018
-4. Work on CSS together
+
+4. Work on CSS together (deadlines: 5/5/2018)
 
 
 ## Milestone 1, Part V: Additional Comments
