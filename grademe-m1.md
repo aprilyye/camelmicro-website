@@ -26,10 +26,10 @@ Note: Forgetting to commit, push, or check your assignment before the deadline i
 
 We affirm our awareness of the standards of the Cornell Code of Academic Integrity.
 
-Full Names:
-Net IDs:
+Full Names: April Ye, Iris Zhao, Prajanan Senthilkumar, Aaliya Khan
+Net IDs: yy459, iz29,  ps736, avk46
 (Only include the names/NetIDs of team members who contributed to this milestone.)
 
-Date:
+Date: April 17, 2018 
 
 ---
