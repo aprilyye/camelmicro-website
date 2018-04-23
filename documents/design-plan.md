@@ -160,7 +160,7 @@ Example:
 
 [Pick a persona that you believe will help you address the gender bias within your design.]
 
-I've selected **[Abby/Patricia/Patrick/Tim]** as my persona.
+I've selected **Abby** as my persona.
 
 I've selected my persona because... [Tell us why you picked your persona in 1-3 sentences. Your explanation should include why your persona will help you address gender-inclusiveness bugs in your design.]
 
@@ -208,9 +208,21 @@ Task 3:
 
 [Describe the structure of your database. You may use words or a picture. A bulleted list is probably the simplest way to do this.]
 
-Table: movies
-* field 1: description...
-* field...
+Table: accounts
+* field 1: id NOT NULL PK AUTOINCREMENT
+* field 2: username NOT NULL
+* field 3: password NOT NULL
+
+Table: blogs
+* field 1: id NOT NULL PK AUTOINCREMENT
+* field 2: username NOT NULL
+* field 3: title NOT NULL
+* field 4: text NOT NULL
+* field 5: image
+
+Table: contact
+* field 1: id NOT NULL OK AUTOINCREMENT
+* field 2: username NOT NULL 
 
 ### Database Queries
 
