@@ -130,6 +130,12 @@ Subject to change due to client requests.
 
 [Describe here what you plan to do for your PHP Interactivity requirement.]
 
+* Contact form
+
+* Blog Upload Form
+
+* Search 
+
 ## Milestone 2, Part II: Sketches, Navigation & Wireframes
 
 ### Sketches
@@ -222,7 +228,11 @@ Table: blogs
 
 Table: contact
 * field 1: id NOT NULL OK AUTOINCREMENT
-* field 2: username NOT NULL 
+* field 2: username NOT NULL
+* field 3: email NOT NULL
+* field 4: timestamp NOT NULL
+* field 5: text NOT NULL
+
 
 ### Database Queries
 
