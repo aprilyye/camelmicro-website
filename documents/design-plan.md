@@ -132,6 +132,8 @@ Subject to change due to client requests.
 
 * Contact form
 
+For the contact form, I plan have a database where I store the sender name, email, and message. If the information is correctly inputted into the database I will let them know their message has been recorded. The admins who log in will be able to see a table of these messages and respond accordingly. An alternative is also using the "mailto: " function.
+
 * Blog Upload Form
 
 For the blog upload form, I plan on using an upload, login/logoff, and submission form for both comments and blogs. This will require some iterations of foreach loops especially for the submission form (into an array of comments for a particular post), and the login/logoff system might be applied using the cookie system in Project 3 or the session_start() function built into PHP. As always, input and output will be filtered in order to accommodate certain submissions (ex. comments, blogs posts).
@@ -253,7 +255,13 @@ Table: contact
 
 * index.php - main page.
 * includes/init.php - stuff that useful for every web page.
-* TODO
+* includes/header.php - the logo and navbar
+* includes/footer.php - just an end note at the bottom of the web pages
+* product.php - display of each product the company has
+* application.php - display of applications for each product
+* blog.php - reviews and messages displayed to the public; must be logged in to post
+* contact.php - send a message to the company
+
 
 ### Pseudocode
 
@@ -292,51 +300,22 @@ include init.php
 
 include header.php
 
-
-
-```
-
-#### blog.php
+Display description of website
 
 ```
-Pseudocode for  blog.php...
+
+#### contact.php
+
+```
+Pseudocode for contact.php
 
 include init.php
-
 include header.php
 
-SQL Query for fetching of all blog posts and Comments
-
-New Blog post:
-confirm user access controls for Author
-Submission button (radio?)
-Filter input of text, image
-INSERT.... WHERE values (........)
-foreach blog post{
-  push post into array
-  push comment into array
-}
-... => ....:
 
 
-Delete Blog post:
-- confirm user access controls
-- unlink blog post and comments from folder
-- DELETE FROM.... WHERE.....
-
-Recent Comments:
-FETCH ALL.... WHERE comments ON post
-
-Archive:
-SQL execute (FETCH ALL .... WHERE dates)
-
-Login/Logout:
-session_start()?
-could use possibly cookie system, although most will be defined in init.php to simplify
 
 ```
-
-
 
 ## Milestone 2, Part VI: Additional Comments
 
