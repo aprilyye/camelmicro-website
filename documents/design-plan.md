@@ -134,6 +134,8 @@ Subject to change due to client requests.
 
 * Blog Upload Form
 
+For the blog upload form, I plan on using an upload, login/logoff, and submission form for both comments and blogs. This will require some iterations of foreach loops especially for the submission form (into an array of comments for a particular post), and the login/logoff system might be applied using the cookie system in Project 3 or the session_start() function built into PHP. As always, input and output will be filtered in order to accommodate certain submissions (ex. comments, blogs posts). 
+
 * Search
 
 ## Milestone 2, Part II: Sketches, Navigation & Wireframes
@@ -142,6 +144,8 @@ Subject to change due to client requests.
 
 ![](home_sketch.jpg)
 ![](contact_sketch.jpg)
+![](sketch_blog.jpg)
+
 
 ### Navigation
 
@@ -160,6 +164,8 @@ Example:
 
 ![](home_wireframe.jpg)
 ![](contact_wireframe.jpg)
+![](wireframe_blog.jpg)
+
 
 ## Milestone 2, Part III: Evaluate your Design
 
@@ -169,7 +175,7 @@ Example:
 
 I've selected **Abby** as my persona.
 
-I've selected my persona because... [Tell us why you picked your persona in 1-3 sentences. Your explanation should include why your persona will help you address gender-inclusiveness bugs in your design.]
+I've selected my persona because the intricacies of Abby's motivations, attitudes, and her style of learning motivate me to reflect her needs into a fully functional webpage that reflects those desires. I want to engage on Abby's comprehensive information processing style and her aversive attitude to reformat the current CamelMicro Site. I want to engage and immerse her abilities and needs fully by using a model of a responsive, simple, and logic driven site about Camel Micros's products. I also want to reflect these styles and processes into a  page that employs the server side technologies already learned into a logic driven site that Abby is able to use seamlessly.
 
 ### Tasks
 
