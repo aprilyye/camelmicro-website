@@ -150,11 +150,10 @@ Subject to change due to client requests.
 [Tip: If you use card sorting for your navigation, show us that work by including a picture!]
 
 Example:
-* Products (top-level)
-  * Shoes (sub-page)
-  * Pants
-  * Shirts
-* Shopping Cart
+* Home
+* Products
+* Application
+* Blog
 * Contact
 
 ### Wireframes
@@ -254,6 +253,30 @@ Table: contact
 
 [For each PHP file, plan out your pseudocode. You probably want a subheading for each file.]
 
+#### includes/init.php
+
+```
+messages = array to store messages for user
+
+// DB helper functions (you do not need to write this out since they are provided.)
+
+db = connect to db
+
+pages = associative array with php file to page title
+
+...
+
+```
+
+#### includes/header.php
+
+```
+header - logo + design
+
+navbar - for each page in pages show a-href links
+
+```
+
 #### index.php
 
 ```
@@ -261,21 +284,13 @@ Pseudocode for index.php...
 
 include init.php
 
-TODO
-```
+include header.php
 
-#### includes/init.php
 
 ```
-messages = array to store messages for user (you may remove this)
 
-// DB helper functions (you do not need to write this out since they are provided.)
 
-db = connect to db
 
-...
-
-```
 
 ## Milestone 2, Part VI: Additional Comments
 
