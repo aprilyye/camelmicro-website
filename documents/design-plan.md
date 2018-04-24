@@ -140,7 +140,10 @@ Subject to change due to client requests.
 
 ### Sketches
 
+![](home_sketch.jpg)
+![](contact_sketch.jpg)
 ![](sketch_blog.jpg)
+
 
 ### Navigation
 
@@ -158,12 +161,9 @@ Example:
 
 ### Wireframes
 
+![](home_wireframe.jpg)
+![](contact_wireframe.jpg)
 ![](wireframe_blog.jpg)
-
-Attached is the wireframe for the blog. The design of the blog posts and side bar were meant to reflect the
-information processing style of Abby. I purposely made the blog article sizes compact and simplistic in order
-to reflect the logic driven approach from Abby, and made sure to limit any extraneous details in order to
-compensate for Abby's risk aversion.
 
 
 ## Milestone 2, Part III: Evaluate your Design
