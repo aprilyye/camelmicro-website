@@ -152,7 +152,6 @@ For the product page, I plan on having an image slideshow display for each produ
 ![](contact_sketch.jpg)
 ![](sketch_blog.jpg)
 ![](sketch_products.JPG)
-![](wireframe_products.JPG)
 ![](applications_sketch.jpg)
 
 
@@ -175,6 +174,8 @@ Example:
 ![](contact_wireframe.jpg)
 ![](wireframe_blog.jpg)
 ![](applications_wireframe.jpg)
+![](wireframe_products.JPG)
+
 
 ## Milestone 2, Part III: Evaluate your Design
 
