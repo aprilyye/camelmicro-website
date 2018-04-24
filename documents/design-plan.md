@@ -134,13 +134,13 @@ Subject to change due to client requests.
 
 * Blog Upload Form
 
-* Search 
+* Search
 
 ## Milestone 2, Part II: Sketches, Navigation & Wireframes
 
 ### Sketches
 
-[Insert your sketches here.]
+![](sketch_blog.jpg)
 
 ### Navigation
 
@@ -158,7 +158,13 @@ Example:
 
 ### Wireframes
 
-[Insert your wireframes here.]
+![](wireframe_blog.jpg)
+
+Attached is the wireframe for the blog. The design of the blog posts and side bar were meant to reflect the
+information processing style of Abby. I purposely made the blog article sizes compact and simplistic in order
+to reflect the logic driven approach from Abby, and made sure to limit any extraneous details in order to
+compensate for Abby's risk aversion.
+
 
 ## Milestone 2, Part III: Evaluate your Design
 
@@ -168,7 +174,7 @@ Example:
 
 I've selected **Abby** as my persona.
 
-I've selected my persona because... [Tell us why you picked your persona in 1-3 sentences. Your explanation should include why your persona will help you address gender-inclusiveness bugs in your design.]
+I've selected my persona because the intricacies of Abby's motivations, attitudes, and her style of learning motivate me to reflect her needs into a fully functional webpage that reflects those desires. I want to engage on Abby's comprehensive information processing style and her aversive attitude to reformat the current CamelMicro Site. I want to engage and immerse her abilities and needs fully by using a model of a responsive, simple, and logic driven site about Camel Micros's products. I also want to reflect these styles and processes into a  page that employs the server side technologies already learned into a logic driven site that Abby is able to use seamlessly.
 
 ### Tasks
 
