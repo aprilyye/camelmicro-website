@@ -332,6 +332,48 @@ If no errors{
 
 ```
 
+#### blog.php
+
+```
+Pseudocode for  blog.php...
+
+include init.php
+
+include header.php
+
+SQL Query for fetching of all blog posts and Comments
+
+New Blog post:
+confirm user access controls for Author
+Submission button (radio?)
+Filter input of text, image
+INSERT.... WHERE values (........)
+foreach blog post{
+  push post into array
+  push comment into array
+}
+... => ....:
+
+
+Delete Blog post:
+- confirm user access controls
+- unlink blog post and comments from folder
+- DELETE FROM.... WHERE.....
+
+Recent Comments:
+FETCH ALL.... WHERE comments ON post
+
+Archive:
+SQL execute (FETCH ALL .... WHERE dates)
+
+Login/Logout:
+session_start()?
+could use possibly cookie system, although most will be defined in init.php to simplify
+
+```
+
+
+
 ## Milestone 2, Part VI: Additional Comments
 
 [Add any additional comments you have here.]
