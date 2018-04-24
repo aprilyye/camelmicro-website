@@ -138,6 +138,10 @@ For the contact form, I plan have a database where I store the sender name, emai
 
 For the blog upload form, I plan on using an upload, login/logoff, and submission form for both comments and blogs. This will require some iterations of foreach loops especially for the submission form (into an array of comments for a particular post), and the login/logoff system might be applied using the cookie system in Project 3 or the session_start() function built into PHP. As always, input and output will be filtered in order to accommodate certain submissions (ex. comments, blogs posts).
 
+* Product Page
+
+For the product page, I plan on having a an image slideshow display of the solo product of the company. I will also have a interactive drop down menu of information separated by category of the product, which will require a for loop to populate the accordion.
+
 * Search
 
 ## Milestone 2, Part II: Sketches, Navigation & Wireframes
@@ -147,6 +151,8 @@ For the blog upload form, I plan on using an upload, login/logoff, and submissio
 ![](home_sketch.jpg)
 ![](contact_sketch.jpg)
 ![](sketch_blog.jpg)
+![](sketch_products.JPG)
+![](wireframe_products.JPG)
 
 
 ### Navigation
@@ -257,7 +263,7 @@ Table: contact
 * includes/init.php - stuff that useful for every web page.
 * includes/header.php - the logo and navbar
 * includes/footer.php - just an end note at the bottom of the web pages
-* product.php - display of each product the company has
+* product.php - display of the product the company has
 * application.php - display of applications for each product
 * blog.php - reviews and messages displayed to the public; must be logged in to post
 * contact.php - send a message to the company
@@ -315,6 +321,18 @@ include header.php
 
 
 
+```
+
+#### product.php
+```
+Pseudocode for product.php
+
+include init.php
+include header.php
+Display title of the solo product
+Display slideshow of product image floated left
+Display accordion of collapsed features of product on right
+Display overview description text of product below the slideshow image
 ```
 
 ## Milestone 2, Part VI: Additional Comments
