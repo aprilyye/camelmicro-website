@@ -153,6 +153,7 @@ For the product page, I plan on having an image slideshow display for each produ
 ![](sketch_blog.jpg)
 ![](sketch_products.JPG)
 ![](wireframe_products.JPG)
+![](applications_sketch.jpg)
 
 
 ### Navigation
@@ -173,7 +174,7 @@ Example:
 ![](home_wireframe.jpg)
 ![](contact_wireframe.jpg)
 ![](wireframe_blog.jpg)
-
+![](applications_wireframe.jpg)
 
 ## Milestone 2, Part III: Evaluate your Design
 
@@ -248,10 +249,33 @@ Table: contact
 * field 4: timestamp NOT NULL
 * field 5: text NOT NULL
 
+Table: applications
+* field 1: id NOT NULL OK AUTOINCREMENT
+* field 2: application NOT NULL
+* field 3: diagram_name NOT NULL
+* field 4: diagram_img NOT NULL
+
 
 ### Database Queries
 
 [Plan your database queries. You may use natural language, pseudocode, or SQL.]
+
+Blogs:
+SELECT * FROM Blogs
+
+Applications:
+
+(queries for each form of application)
+SELECT*FROM applications
+SELECT * FROM applications WHERE application=='automotive'
+SELECT * FROM applications WHERE application=='wireless'
+SELECT * FROM applications WHERE application=='networking'
+SELECT * FROM applications WHERE application=='military'
+SELECT * FROM applications WHERE application=='computer'
+SELECT diagram_img FROM applications WHERE diagram_name='Audio and Infotainment System'
+SELECT diagram_img FROM applications WHERE diagram_name='Body Electronics'
+SELECT diagram_img FROM applications WHERE diagram_name='braking'
+SELECT diagram_img FROM applications WHERE diagram_name='door module'
 
 ## Milestone 2, Part V: Structure and Pseudocode
 
@@ -395,6 +419,16 @@ Display title of the solo product
 Display slideshow of product image floated left
 Display accordion of collapsed features of product on right
 Display overview description text of product below the slideshow image
+```
+
+#### applications.php
+```
+Pseudocode for product.php
+
+include init.php
+include header.php
+Display applications table
+include footer.php
 ```
 
 ## Milestone 2, Part VI: Additional Comments
