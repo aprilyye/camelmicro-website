@@ -140,7 +140,7 @@ For the blog upload form, I plan on using an upload, login/logoff, and submissio
 
 * Product Page
 
-For the product page, I plan on having a an image slideshow display of the solo product of the company. I will also have a interactive drop down menu of information separated by category of the product, which will require a for loop to populate the accordion.
+For the product page, I plan on having an image slideshow display for each product of the company. I will also have a interactive drop down menu of information separated by category of the product, which will require a for loop to populate the accordion. I plan on storing all the products information in a database, and using SQL to fetch the product information to be uploaded to the site. This will require PHP interactivity to retrieve the SQL.
 
 * Search
 
@@ -386,6 +386,11 @@ Pseudocode for product.php
 
 include init.php
 include header.php
+
+access database
+
+SQL query to fetch product information, including product image, title, overview description
+
 Display title of the solo product
 Display slideshow of product image floated left
 Display accordion of collapsed features of product on right
