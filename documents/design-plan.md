@@ -134,13 +134,14 @@ Subject to change due to client requests.
 
 * Blog Upload Form
 
-* Search 
+* Search
 
 ## Milestone 2, Part II: Sketches, Navigation & Wireframes
 
 ### Sketches
 
-[Insert your sketches here.]
+![](home_sketch.jpg)
+![](contact_sketch.jpg)
 
 ### Navigation
 
@@ -158,7 +159,8 @@ Example:
 
 ### Wireframes
 
-[Insert your wireframes here.]
+![](home_wireframe.jpg)
+![](contact_wireframe.jpg)
 
 ## Milestone 2, Part III: Evaluate your Design
 
