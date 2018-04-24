@@ -316,8 +316,18 @@ access database
 
 $contact-messages = array();
 
-Foreach $contact-message
+Foreach $contact_message
 display message
+
+if ($_POST['send']){
+  INSERT message, username, email INTO contact table
+};
+
+If no errors{
+  array_push ($contact_message, 'Message sent')
+}else {
+  array_push($contact_message, 'Error in sending, please send again');
+}
 
 
 ```
