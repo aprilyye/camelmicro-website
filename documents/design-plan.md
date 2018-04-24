@@ -293,6 +293,7 @@ include init.php
 include header.php
 
 
+
 ```
 
 #### blog.php
