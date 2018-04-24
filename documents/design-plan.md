@@ -312,7 +312,12 @@ Pseudocode for contact.php
 include init.php
 include header.php
 
+access database
 
+$contact-messages = array();
+
+Foreach $contact-message
+display message
 
 
 ```
