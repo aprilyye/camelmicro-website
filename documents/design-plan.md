@@ -125,7 +125,6 @@ Cookies will only be used for 3-5% of the project. The rest will be our own code
 Subject to change due to client requests.
 
 
-
 ## Milestone 2, Part I: PHP Interactivity
 
 [Describe here what you plan to do for your PHP Interactivity requirement.]
@@ -144,37 +143,42 @@ For the product page, I plan on having an image slideshow display for each produ
 
 * Search
 
+For the search bar on the header, We plan to limit it to just having search details for blog posts and products only in order to not violate any constraints with the database schema design. Using the same principles from project 3 (tag system) and project 2 (search bar), we plan to use SQL queries and foreach loops to execute the search navigation, which will require PHP interactivity to retrieve the SQL.
+
 ## Milestone 2, Part II: Sketches, Navigation & Wireframes
 
 ### Sketches
 
 ![](home_sketch.jpg)
-![](contact_sketch.jpg)
-![](sketch_blog.jpg)
 ![](sketch_products.JPG)
-![](wireframe_products.JPG)
 ![](applications_sketch.jpg)
+![](sketch_blog.jpg)
+![](contact_sketch.jpg)
 
 
 ### Navigation
 
-[What will be your top-level pages and your sub-pages for those top-level pages? What will your website's navigational structure?]
-
-[Tip: If you use card sorting for your navigation, show us that work by including a picture!]
-
-Example:
 * Home
 * Products
 * Application
 * Blog
+  * Archive
+  * Blog Posts
+  * Recent comments
+  * Login
 * Contact
+
+We will be implementing a top-level header/init approach in navigation as well as a search bar to navigate both posts and products.
+
 
 ### Wireframes
 
 ![](home_wireframe.jpg)
-![](contact_wireframe.jpg)
-![](wireframe_blog.jpg)
 ![](applications_wireframe.jpg)
+![](wireframe_products.JPG)
+![](wireframe_blog.jpg)
+![](contact_wireframe.jpg)
+
 
 ## Milestone 2, Part III: Evaluate your Design
 
@@ -192,37 +196,110 @@ I've selected my persona because the intricacies of Abby's motivations, attitude
 
 [For each task, list the ideal set of actions that you would like your users to take when working towards the task.]
 
-Task 1: [describe your task]
+**Task 1: Navigating and learning more about  a certain application of CamelMicro products (ex. Military)**
 
-  1. [action 1...]
-  2. [action 2...]
-  3. ...
+  1. Go to the Application Page
+  2. Scroll down to Applications
+  3. Press on Military
 
-Task 2:
+**Task 2: Navigating to a specific blog post from September 2017**
 
-Task 3:
+1. Go to the Blog Page
+2. Press on Archive (September 2017)
+3. Scroll down for the blog post from all posts in September 2017
+
+**Task 3: Navigating And submitting information to the contact form.**
+
+1. Go to the Contact Page
+2. Fill out required queries on form
+3. Submit form
 
 ### Cognitive Walkthrough
 
 [Perform a cognitive walkthrough using the GenderMag method for all of your Tasks. Use the GenderMag template in the <documents/gendermag-template.md> file.]
 
+Below are the attached cognitive walkthroughs for each task at hand for the CamelMicro site.
+
+
 #### Task 1 - Cognitive Walkthrough
 
-[copy the GenderMag template here and conduct a cognitive walkthrough to evaluate your design (wireframes).]
+**Task 1: Navigating and learning more about  a certain application of CamelMicro products (ex. Military)**
 
-[You may need to add additional subgoals and/or actions for each task.]
+  1. Go to the Application Page
+
+  **Action 1 : Click on Application Page**
+  At this step, Abby is expected to know what to do at this step because the task at hand is simple enough for Abby to execute given her low computer self-efficacy score, and she is then able to gather information comprehensively to achieve the task at hand. She is also making progress towards her goal in finding Military because she now knows that she has hit the Application page.
+
+
+  2. Scroll down to Applications
+
+  **Action 2 : Scroll down to the Application at hand**
+  At this step, we know that Abby tends to gather information comprehensively, meaning she tries to read a lot first before actually executing the task at hand. The way our wireframe is laid out allows this to be executed well, as the applications are listed down as Abby scrolls before she finds the one she wants. She also knows that she is making progress towards her goal because she is scrolling down all applications (thereby minimizing risk) and finding the Military Tab.
+
+  3. Press on Military
+
+  **Action 3 : Click on the Military Tab to know more**
+  At this step, we know that Abby has high risk aversion, meaning she will not execute an action before she knows that she is certain the action she is doing will warrant the given result. At this stage of the action, she is now certain that clicking on the Military Tab will allow her to actively look into the Military applications of the Camel Micro products, successfully completing her goal.
+
+
 
 #### Task 2 - Cognitive Walkthrough
+
+**Task 2: Navigating to a specific blog post from September 2017**
+
+1. Go to the Blog Page
+
+**Action 1 : Click on Blog Page**
+At this step, Abby is expected to know what to do at this step because the task at hand is simple enough for Abby to execute given her low computer self-efficacy score, and she is then able to gather information comprehensively to achieve the task at hand. She is also making progress towards her goal in finding the blog post from September 2017 because she now knows that she has hit the Blog page where she will be able to find the blog post from September 2017.
+
+
+2. Press on Archive (September 2017)
+
+**Action 2 : Scroll down to the Archive**
+At this step, we know that Abby tends to gather information comprehensively, meaning she tries to read a lot first before actually executing the task at hand. The way our wireframe is laid out allows this to be executed well, as the applications are listed down as Abby scrolls before she finds the one she wants. She also knows that she is making progress towards her goal because she is scrolling down all months/years (thereby minimizing risk) and finding the September 2017 link.
+
+**Action 3: Press on September 2017**
+At this step, we know that Abby is certain, based on her high risk aversion, that she will be able to find a post that is from September 2017, given the signal from the title of the section (Archive) and the actual month.
+
+3. Scroll down for the blog post from all posts in September 2017
+
+**Action 4 : Scroll to find the post**
+At this step, given Abby's comprehensive information style, we know that Abby will want to first scroll down through all blog posts before actually finding the one she wants. Therefore, we simplified our wireframe to accommodate this step so that she can now find the blog post at hand. This also minimizes her risk at hand because she will know which blog post from September 2017 is, successfully accomplishing her goal.
 
 
 #### Task 3 - Cognitive Walkthrough
 
+**Task 3: Navigating And submitting information to the contact form.**
+
+1. Go to the Contact Page
+
+**Action 1 : Click on Contact Page**
+At this step, Abby should  know what to do because the task at hand is logic driven and simplistic for Abby to execute given her low computer self-efficacy score, and she is then able to gather information comprehensively to achieve the task at hand. She is also making progress towards her goal in finding the Contact page in order to submit her concerns to CamelMicro.
+
+
+2. Fill out required queries on form
+
+**Action 2 : Fill out each query on the form**
+At this step, we know that Abby has high risk aversion and process oriented learning. This means that she wants to make sure that each step of the way, she is completing the right query and form before she submits anything. By emphasizing for the form a top-down approach before Abby ever hits submit, we ensure that Abby knows that she/he is required to fill out each query before moving on to the submission, also letting her know that she is reaching her goal.
+
+3. Submit form
+
+**Action 3 : Hit submit**
+We know that Abby gathers information comprehensively and is aversive to risk, so in finally filling out each query (with filtered input and escaped output), we know that Abby has successfully minimized her risk in making an error with the form submission and has gathered all the information on the site sufficiently to execute the goal at hand, which in this case reflects submission of the form and query to CamelMicro.
 
 ### Cognitive Walk-though Results
 
 [Did you discover any issues with your design? What were they? How did you change your design to address the gender-inclusiveness bugs you discovered?]
 
 [Your responses here should be very thorough and thoughtful.]
+
+As a result of modifications from previous wireframes and sketches from doing multiple cognitive walkthroughs with the three tasks, we were able to successfully accommodate for any gender-inclusiveness and ability related bugs or issues related to the design of the CamelMicro site. We know that the clientele base for CamelMicro is diverse, meaning that the GenderMag method is even more important to apply to make sure that usability of the site is seamless and can allow for all use cases to be successful, minimizing lost revenue for CamelMicro in the process.
+
+By focusing on Abby, which we consider to be the base user clientele for CamelMicro as well as a good case for many users, we tackled the five problem-solving facets mattering to software gender-inclusiveness. We primarily focused on motivations for using the site, information processing style, computer self-efficacy, attitudes towards risk, and learning style, we were able to address the concerns of users potentially visiting the site with relation to how the site is organized.
+
+We paid attention to the high risk aversion, low computer self-efficacy, and comprehensive information processing style of Abby in order to tackle the tasks at hand. We found that making sure that the site's navigation, both on the header and on actual sections for each page, must emphasize a logic driven and simplified approach in order to accommodate all base users and their related issues with using technology. We revised much of our wireframes after the first few cognitive walkthroughs in order to really emphasize the need to fit this simple approach.
+
+As a result of deliberations and edits, we feel that we have finally minimized all gender and ability related bugs in using the site by relating to the Abby's persona. The navigation and access to certain details on the site, such as Blog Posts or Applications, have been simplified to fit this persona and minimize risk.
 
 ## Milestone 2, Part IV: Database Plan
 
@@ -257,8 +334,6 @@ Table: applications
 
 
 ### Database Queries
-
-[Plan your database queries. You may use natural language, pseudocode, or SQL.]
 
 Blogs:
 SELECT * FROM Blogs
@@ -429,7 +504,9 @@ include footer.php
 
 ## Milestone 2, Part VI: Additional Comments
 
-[Add any additional comments you have here.]
+Subject to change due to client requests, but we will be contacting them shortly this week (4/23) to confirm details.
+
+The team contract has also remained the same since Milestone 1.
 
 
 ## Milestone 3: Updates

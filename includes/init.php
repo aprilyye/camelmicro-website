@@ -1,5 +1,15 @@
 <?php
 
+
+$pages = array(
+  "Home" => 'index.php',
+  "Product" => 'product.php',
+  "Application" => 'application.php',
+  "Blog" => 'blog.php',
+  "Contact" => 'contact.php',
+);
+
+
 function exec_sql_query($db, $sql, $params = array()) {
   $query = $db->prepare($sql);
   if ($query and $query->execute($params)) {
