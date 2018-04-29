@@ -1,7 +1,7 @@
 <?php
 include('includes/init.php');
 include('includes/header.php');
-$current_page = 'contact.php';
+$current_page = 'product.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,7 +10,7 @@ $current_page = 'contact.php';
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Home</title>
+  <title>Product</title>
 </head>
 
 <body>

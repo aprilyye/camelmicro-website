@@ -150,10 +150,10 @@ For the search bar on the header, We plan to limit it to just having search deta
 ### Sketches
 
 ![](home_sketch.jpg)
-![](contact_sketch.jpg)
-![](sketch_blog.jpg)
 ![](sketch_products.JPG)
 ![](applications_sketch.jpg)
+![](sketch_blog.jpg)
+![](contact_sketch.jpg)
 
 
 ### Navigation
@@ -174,10 +174,10 @@ We will be implementing a top-level header/init approach in navigation as well a
 ### Wireframes
 
 ![](home_wireframe.jpg)
-![](contact_wireframe.jpg)
-![](wireframe_blog.jpg)
 ![](applications_wireframe.jpg)
 ![](wireframe_products.JPG)
+![](wireframe_blog.jpg)
+![](contact_wireframe.jpg)
 
 
 ## Milestone 2, Part III: Evaluate your Design
