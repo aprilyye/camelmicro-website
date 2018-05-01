@@ -16,30 +16,52 @@ $current_page = 'product.php';
 <body>
   <div id="content-wrap">
     <article id="content">
-      <h2 id="product-title">K32W0x: Dual-core, large memory, high security, Bluetooth 5 + 802.15.4 MCU</h2>
-      <!-- <img id="imgopen" alt="Image Upload" src="uploads/product1.png" width="400" height="550"/> -->
+      <h2 id="product-title">M2: 32-bit Mixed-Signal Processor</h2>
+      <img id="imgopen" alt="Image Upload" src="uploads/product.png" width="550" height="550"/>
 
 
       <!-- Use css and javascript to style into accordion  -->
       <h2 id="product-title">Features</h2>
-      <button class="accordion">Info 1</button>
+      <button class="accordion">Microprocessor Core Unit</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <li>5-stage pipeline </li>
+        <li>MIPS-II ISA</li>
+        <li>2Kx32 bit boot ROM</li>
+        <li>1M-bit embedded FLASH</li>
+        <li>2Kx32 bit SRAM</li>
+        <li>MMU with simple fixed mapping transition (FMT)</li>
+        <li>1 cycle interrupt response with atomic control</li>
       </div>
 
-      <button class="accordion">Info 2</button>
+      <button class="accordion">Peripheral System Unit</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <li>Extendable external interrupt controller with atomic rise/fall edge control</li>
+        <li>Power management with Battery low detection</li>
+        <li>32-bit Timer/Event/Counter – 1-4 PWM Module</li>
+        <li>12-bit V2P (Voltage to Pulse) Module</li>
+        <li>16-bit Σ-∆ ADC and Digital Filter</li>
+        <li>Low Noise Op-Amp with PGA and ZERO ADJUSTMENT</li>
+        <li>Embedded 32-SEG x 4-COM LCD Driver</li>
+        <li>Two UART/LIN Communication Modules</li>
+        <li>SPI Communication Module</li>
+        <li>Real-Time Clock (RTC) Module</li>
+        <li>Pulse-Width Measurement Module</li>
+        <li>Watch Dog Timer Module</li>
       </div>
 
-      <button class="accordion">Info 3</button>
+      <button class="accordion">Software Development</button>
       <div class="panel">
-        <p>Lorem ipsum...</p>
+        <li>CamelStudio IDE</li>
       </div>
 
       <!-- Overiew description -->
       <h2 id="product-title">Overview</h2>
-      <p> text </p>
+      <p> M2 is a CMOS Mixed Signal Processor (MSP) for intelligent
+        medical/sensor applications with 32-bit embedded computing power.
+        It provides a complete set of system modules to support embedded data
+        acquisition, algorithm analysis, internal controlling, external interrupt,
+        PWM, connectivity, and LCD driving. It also features analog configuration and
+        calibration. </p>
     </article>
   </div>
 </body>
