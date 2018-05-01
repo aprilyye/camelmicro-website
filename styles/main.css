@@ -1,10 +1,17 @@
-
 nav {
 text-align: right;
-margin: 0 ;
-padding:0;
-background-color: #A9A9A9;
-width:100%
+margin: 0px;
+padding:20px;
+background-color: Gray;
+width:100%;
+}
+
+nav a{
+  color: white;
+}
+
+nav a:hover{
+  color: blue;
 }
 
 nav ul{
@@ -21,13 +28,10 @@ nav li {
 }
 
 body{
-  margin: 0 auto;
-  margin-right: 40;
-  margin-left: 40;
- font-family: Helvetica;
+ margin: 0px;
 }
 
-input, select {
+input{
     width: 60%;
     padding: 12px 20px;
     margin: 8px 0;

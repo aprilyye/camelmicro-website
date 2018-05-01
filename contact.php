@@ -44,13 +44,15 @@ if (isset($_POST['send_message'])){
   }
 } else{
  ?>
+
+ <h1> Contact Us </h1>
 <div class = "contact">
 <form name='contact_form' method = "POST" action= "contact.php">
   <input type="text" name ="visitor_name" placeholder="Your name" required>
   <input type="email" name="visitor_email" placeholder="Your email" required>
   <input type= "subject" name="email_subject" placeholder="Your subject" required>
   <textarea name="message" required> </textarea>
-  <input type="submit" name="send_message" value="send_message">
+  <input type="submit" name="send_message" value="Send Message">
 </form>
 </div>
 

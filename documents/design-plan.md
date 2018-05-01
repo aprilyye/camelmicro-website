@@ -511,7 +511,7 @@ The team contract has also remained the same since Milestone 1.
 
 ## Milestone 3: Updates
 
-[If you make any changes to your plan or design, make a list of the changes here.]
+For contact.php instead of using a database to display the messages we decided to use the built in mail() function of php to send the email out. 
 
 
 ## Milestone 4: Updates
