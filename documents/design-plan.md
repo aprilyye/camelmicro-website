@@ -511,7 +511,7 @@ The team contract has also remained the same since Milestone 1.
 
 ## Milestone 3: Updates
 
-The draft for this milestone focuses on the actually theme of the site as well as other implementation features such as blog.php, product.php, and application.php in order to really reflect the designs needed by the CamelMicro team.
+The draft for this milestone focuses on the actually theme of the site as well as other implementation features such as blog.php, product.php, and application.php in order to really reflect the designs needed by the CamelMicro team
 
 
 For contact.php instead of using a database to display the messages we decided to use the built in mail() function of php to send the email out. We also took out the search function for now because there is not enough seed data to warrant a search, and we need to deliberate with the CamelMicro team in assessing if they want to search function for blog posts, applications, or miscellaneous.
