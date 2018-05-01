@@ -16,6 +16,7 @@ $records = exec_sql_query($db, "SELECT * FROM applications")->fetchAll(PDO::FETC
   <title>Application</title>
 </head>
 <body>
+  <div>
 
   <h1>Applications</h1>
   <p>Camel Micro microchips have a variety of application. Find specific information below:</p>
@@ -29,5 +30,6 @@ foreach($records as $record){
  ?>
 </tr>
 </table>
+</div>
 </body>
 </html>
