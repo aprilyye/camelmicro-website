@@ -17,7 +17,7 @@ $current_page = 'product.php';
   <div id="content-wrap">
     <article id="content">
       <h2 id="product-title">M2: 32-bit Mixed-Signal Processor</h2>
-      <img id="imgopen" alt="Image Upload" src="uploads/product.png" width="550" height="550"/>
+      <img id="imgopen" alt="Image Upload" src="documents/mixed processor.jpeg" width="550" height="550"/>
 
 
       <!-- Use css and javascript to style into accordion  -->
