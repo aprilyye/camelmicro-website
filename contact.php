@@ -44,7 +44,7 @@ if (isset($_POST['send_message'])){
   }
 } else{
  ?>
-
+<div>
  <h1> Contact Us </h1>
 <div class = "contact">
 <form name='contact_form' method = "POST" action= "contact.php">
@@ -59,6 +59,6 @@ if (isset($_POST['send_message'])){
 <?php
 }
  ?>
-
+</div>
 </body>
 </html>

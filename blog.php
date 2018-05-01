@@ -20,7 +20,6 @@ $db=open_or_init_sqlite_db('blog.sqlite', "init/init.sql");
   echo '<h2>' ;
   echo 'Add a Post' ;
   echo '</h2>';
-  echo '<br>';
   echo
   "<form action='' method='post'>
   <input type='text' placeholder ='Title' name='Title'>
@@ -40,6 +39,7 @@ $db=open_or_init_sqlite_db('blog.sqlite', "init/init.sql");
 
 $records = exec_sql_query($db, "SELECT * FROM blog")->fetchAll(PDO::FETCH_ASSOC);
 
+echo "<hr>";
 echo '<div class=blogpost>';
 foreach($records as $record){
   echo "<h2>" . $record["Title"] . "</h2>";
