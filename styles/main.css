@@ -1,9 +1,17 @@
 nav {
 text-align: right;
 margin: 0 ;
-padding:0;
+padding:20px;
 background-color: #A9A9A9;
-width:100%
+width:100%;
+}
+
+nav a{
+  color: white;
+}
+
+nav a:hover{
+  color: blue;
 }
 
 nav ul{
@@ -23,7 +31,7 @@ body{
  margin: 0px;
 }
 
-input, select {
+input{
     width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
