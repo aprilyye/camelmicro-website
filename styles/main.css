@@ -93,6 +93,7 @@ div {
 .diagrams{
   width:50%;
   height:auto;
+  margin-left: 3em;
 }
 table{
   width:100%;

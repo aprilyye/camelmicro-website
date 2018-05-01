@@ -21,6 +21,7 @@ $records = exec_sql_query($db, "SELECT image FROM applications WHERE id=$ref_id"
 </head>
 
 <body>
+  <h2> Use this diagram to help with your application: </h1>
 <?php
 foreach ($records as $record){
   echo "<img class=\"diagrams\" src=\"" . UPLOADS_PATH . $record["image"]."\"".">";
