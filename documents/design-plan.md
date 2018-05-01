@@ -513,7 +513,6 @@ The team contract has also remained the same since Milestone 1.
 
 The draft for this milestone focuses on the actually theme of the site as well as other implementation features such as blog.php, product.php, and application.php in order to really reflect the designs needed by the CamelMicro team
 
-
 For contact.php instead of using a database to display the messages we decided to use the built in mail() function of php to send the email out. We also took out the search function for now because there is not enough seed data to warrant a search, and we need to deliberate with the CamelMicro team in assessing if they want to search function for blog posts, applications, or miscellaneous.
 
 Additionally, we are setting up a video call with Bill Xie, our main point of contact for CamelMicro, in order to deliberate over future features on the site as well as the site design sometime Wednesday (05/02/2018) around 4 PM. We want to be able to implement the features our client wants first before we move ahead with the proposed frameworks in blog.php, application.php, and product.php.
