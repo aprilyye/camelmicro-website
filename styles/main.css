@@ -70,3 +70,15 @@ div {
     padding: 20px;
     text-align: center;
 }
+
+
+.blogpost {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+}
+
+.headerpic {
+  height: 80px;
+  width: 1521px;
+}

@@ -1,4 +1,5 @@
 <header>
+  <img src="documents/CamelMicro header.png" class="headerpic" alt="Biggie"/>
   <nav>
     <ul>
   <?php
