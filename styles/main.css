@@ -25,13 +25,14 @@ nav ul{
 nav li {
    display: inline-block;
 	 padding-top: 10px;
-	 padding-left: 50px;
-	 padding-right: 30px;
+	 padding-left: 25px;
+	 padding-right: 25px;
 }
 
 body{
  margin: 0px;
  font-family: 'Arial';
+
 }
 
 input{
