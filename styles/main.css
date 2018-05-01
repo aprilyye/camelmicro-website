@@ -1,0 +1,24 @@
+nav {
+text-align: right;
+margin: 0 ;
+padding:0;
+background-color: #A9A9A9;
+width:100%
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+
+}
+
+nav li {
+   display: inline-block;
+	 padding-top: 10px;
+	 padding-left: 50px;
+	 padding-right: 30px;
+}
+
+body{
+ margin: 0px;
+}
