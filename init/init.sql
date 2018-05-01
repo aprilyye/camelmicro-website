@@ -7,17 +7,17 @@ CREATE TABLE `applications` (
 	`image`	TEXT
 );
 
-INSERT INTO applications (name) VALUES ('Automotive');
-INSERT INTO applications (name) VALUES ('Industrial');
-INSERT INTO applications (name) VALUES ('Military and Aerospace');
-INSERT INTO applications (name) VALUES ('Power Supply');
-INSERT INTO applications (name) VALUES ('Computing and Peripherals');
-INSERT INTO applications (name) VALUES ('LED Lighting');
-INSERT INTO applications (name) VALUES ('Consumer');
-INSERT INTO applications (name) VALUES ('Medical');
-INSERT INTO applications (name) VALUES ('Portable and Wireless');
-INSERT INTO applications (name) VALUES ('Motor Control');
-INSERT INTO applications (name) VALUES ('Networking and Telecommunications');
+INSERT INTO applications (name,image) VALUES ('Automotive','1.jpg');
+INSERT INTO applications (name,image) VALUES ('Industrial','2.jpg');
+INSERT INTO applications (name,image) VALUES ('Military and Aerospace','3.jpg');
+INSERT INTO applications (name,image) VALUES ('Power Supply','4.jpg');
+INSERT INTO applications (name,image) VALUES ('Computing and Peripherals','5.jpg');
+INSERT INTO applications (name,image) VALUES ('LED Lighting','6.jpg');
+INSERT INTO applications (name,image) VALUES ('Consumer','7.jpg');
+INSERT INTO applications (name,image) VALUES ('Medical','1.jpg');
+INSERT INTO applications (name,image) VALUES ('Portable and Wireless','2.jpg');
+INSERT INTO applications (name,image) VALUES ('Motor Control','3.jpg');
+INSERT INTO applications (name,image) VALUES ('Networking and Telecommunications','4.jpg');
 
 
 CREATE TABLE blog (
