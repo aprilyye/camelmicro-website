@@ -21,13 +21,21 @@ $records = exec_sql_query($db, "SELECT * FROM applications")->fetchAll(PDO::FETC
   <p>Camel Micro microchips have a variety of application. Find specific information below:</p>
 
 <table>
-<tr>
+
 <?php
+$counter=0;
 foreach($records as $record){
+  if($counter%3==0){
+    echo"<tr>";
+  }
   echo '<td><a href="diagram.php?id='.$record["id"]."\">".$record["name"].'</a></td>';
+  if ($counter%3==2){
+    echo "</tr>";
+  }
+  $counter++;
 }
  ?>
-</tr>
+
 </table>
 </body>
 </html>

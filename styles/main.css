@@ -90,3 +90,14 @@ div {
   height: 80px;
   width: 1602px;
 }
+.diagrams{
+  width:50%;
+  height:auto;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+table, tr, td {
+    border: 1px solid black;
+}

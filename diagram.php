@@ -4,10 +4,10 @@ include('includes/header.php');
 if (isset($_GET['id'])) {
 $ref_id = (int)$_GET['id'];
 }
-const UPLOADS_PATH = "documents/diagrams/";
-$current_page = 'application.php';
+const UPLOADS_PATH = "documents/diagram/";
+$current_page = 'diagram.php';
 $db=open_or_init_sqlite_db('applications.sqlite', "init/init.sql");
-$records = exec_sql_query($db, "SELECT * FROM applications WHERE id=$ref_id")->fetchAll(PDO::FETCH_ASSOC);
+$records = exec_sql_query($db, "SELECT image FROM applications WHERE id=$ref_id")->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +23,7 @@ $records = exec_sql_query($db, "SELECT * FROM applications WHERE id=$ref_id")->f
 <body>
 <?php
 foreach ($records as $record){
-  echo "<img src=\"" . UPLOADS_PATH . $record["image"]."\"".">";
+  echo "<img class=\"diagrams\" src=\"" . UPLOADS_PATH . $record["image"]."\"".">";
 }
 ?>
 </table>
