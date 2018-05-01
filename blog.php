@@ -24,8 +24,7 @@ $db=open_or_init_sqlite_db('blog.sqlite', "init/init.sql");
   echo
   "<form action='' method='post'>
   <input type='text' placeholder ='Title' name='Title'>
-  <br>
-  <textarea ='text' placeholder ='Text' rows='4' cols='50' name='Text'></textarea>
+  <textarea ='text' placeholder ='Text' name='Text'></textarea>
   <input type='submit' name='Post' value='Add Tag' />
   </form>";
   if(isset($_POST['Post'])){

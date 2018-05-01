@@ -51,7 +51,7 @@ if (isset($_POST['send_message'])){
   <input type="text" name ="visitor_name" placeholder="Your name" required>
   <input type="email" name="visitor_email" placeholder="Your email" required>
   <input type= "subject" name="email_subject" placeholder="Your subject" required>
-  <textarea name="message" required> </textarea>
+  <textarea name="message" placeholder="Email Content" required> </textarea>
   <input type="submit" name="send_message" value="Send Message">
 </form>
 </div>
