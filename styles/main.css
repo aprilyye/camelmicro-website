@@ -29,6 +29,7 @@ nav li {
 
 body{
  margin: 0px;
+ font-family: 'Arial';
 }
 
 input{
@@ -84,5 +85,5 @@ div {
 
 .headerpic {
   height: 80px;
-  width: 1521px;
+  width: 1602px;
 }
