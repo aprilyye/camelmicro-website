@@ -1,10 +1,15 @@
 <?php
 include('includes/init.php');
 include('includes/header.php');
+if (isset($_GET['id'])) {
+$ref_id = (int)$_GET['id'];
+}
+const UPLOADS_PATH = "uploads/diagrams/";
 $current_page = 'application.php';
 $db=open_or_init_sqlite_db('applications.sqlite', "init/init.sql");
-$records = exec_sql_query($db, "SELECT * FROM applications")->fetchAll(PDO::FETCH_ASSOC);
+$records = exec_sql_query($db, "SELECT * FROM applications WHERE id=$ref_id")->fetchAll(PDO::FETCH_ASSOC);
 ?>
+
 <!DOCTYPE html>
 <html>
 
@@ -16,18 +21,11 @@ $records = exec_sql_query($db, "SELECT * FROM applications")->fetchAll(PDO::FETC
 </head>
 
 <body>
-
-  <h1>Applications</h1>
-  <p>Camel Micro microchips have a variety of application. Find specific information below:</p>
-
-<table>
-<tr>
 <?php
-foreach($records as $record){
-  echo '<td><a href="diagram.php?id='.$record["id"]."\">".$record["name"].'</a></td>';
+foreach ($records as $record){
+  echo "<img src=\"" . UPLOADS_PATH . $record["image"]."\"".">";
 }
- ?>
-</tr>
+?>
 </table>
 </body>
 </html>
