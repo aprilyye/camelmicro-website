@@ -44,6 +44,7 @@ if (isset($_POST['send_message'])){
   }
 } else{
  ?>
+<div class = "contact">
 <form name='contact_form' method = "POST" action= "contact.php">
   <input type="text" name ="visitor_name" placeholder="Your name" required>
   <input type="email" name="visitor_email" placeholder="Your email" required>
@@ -51,6 +52,7 @@ if (isset($_POST['send_message'])){
   <textarea name="message" required> </textarea>
   <input type="submit" name="send_message" value="send_message">
 </form>
+</div>
 
 <?php
 }
