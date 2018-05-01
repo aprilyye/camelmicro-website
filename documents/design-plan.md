@@ -330,7 +330,6 @@ Table: applications
 * field 1: id NOT NULL OK AUTOINCREMENT
 * field 2: application NOT NULL
 * field 3: diagram_name NOT NULL
-* field 4: diagram_img NOT NULL
 
 
 ### Database Queries
