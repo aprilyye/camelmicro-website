@@ -29,7 +29,7 @@ foreach($records as $record){
   if($counter%3==0){
     echo"<tr>";
   }
-  echo '<td><a href="diagram.php?id='.$record["id"]."\">".$record["name"].'</a></td>';
+  echo '<td><a class="apptable" href="diagram.php?id='.$record["id"]."\">".$record["name"].'</a></td>';
   if ($counter%3==2){
     echo "</tr>";
   }
