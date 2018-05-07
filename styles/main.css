@@ -138,17 +138,20 @@ td:hover{
 
 }
 
-/* h5{
+h5{
   text-align: center;
   color: black;
   font-size: 40px;
-  margin: 5px;
+  margin: 20px;
   font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
   letter-spacing: .15em;
   font-weight: normal;
   font-variant: small-caps;
   text-shadow: 2px 2px 	#A9A9A9
 }
-
-#home{
-} */
+#home {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
