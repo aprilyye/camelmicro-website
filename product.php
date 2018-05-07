@@ -17,13 +17,17 @@ $current_page = 'product.php';
   <div id="content-wrap">
     <article id="content">
       <h2 id="product-title">M2: 32-bit Mixed-Signal Processor</h2>
-      <img id="imgopen" alt="Image Upload" src="documents/mixed processor.jpeg" width="550" height="550"/>
+      <producth1> M2 is a CMOS Mixed Signal Processor (MSP) for intelligent
+        medical/sensor applications with 32-bit embedded computing power.
+        It provides a complete set of system modules to support embedded data
+        acquisition, algorithm analysis, internal controlling, external interrupt,
+        PWM, connectivity, and LCD driving. It also features analog configuration and
+        calibration. </producth1>
+      <img id="imgopen" class="productleft" alt="Image Upload" src="uploads/product.png" width="550" height="550"/>
 
-
-      <!-- Use css and javascript to style into accordion  -->
-      <h2 id="product-title">Features</h2>
-      <button class="accordion">Microprocessor Core Unit</button>
+      <h2 id="product-title2">Features</h2>
       <div class="panel">
+        <producth3>Microprocessor Core Unit</producth3>
         <li>5-stage pipeline </li>
         <li>MIPS-II ISA</li>
         <li>2Kx32 bit boot ROM</li>
@@ -31,10 +35,8 @@ $current_page = 'product.php';
         <li>2Kx32 bit SRAM</li>
         <li>MMU with simple fixed mapping transition (FMT)</li>
         <li>1 cycle interrupt response with atomic control</li>
-      </div>
 
-      <button class="accordion">Peripheral System Unit</button>
-      <div class="panel">
+      <producth3>Peripheral System Unit</producth3>
         <li>Extendable external interrupt controller with atomic rise/fall edge control</li>
         <li>Power management with Battery low detection</li>
         <li>32-bit Timer/Event/Counter – 1-4 PWM Module</li>
@@ -47,21 +49,11 @@ $current_page = 'product.php';
         <li>Real-Time Clock (RTC) Module</li>
         <li>Pulse-Width Measurement Module</li>
         <li>Watch Dog Timer Module</li>
-      </div>
 
-      <button class="accordion">Software Development</button>
-      <div class="panel">
+      <producth3>Software Development</producth3>
         <li>CamelStudio IDE</li>
       </div>
 
-      <!-- Overiew description -->
-      <h2 id="product-title">Overview</h2>
-      <p> M2 is a CMOS Mixed Signal Processor (MSP) for intelligent
-        medical/sensor applications with 32-bit embedded computing power.
-        It provides a complete set of system modules to support embedded data
-        acquisition, algorithm analysis, internal controlling, external interrupt,
-        PWM, connectivity, and LCD driving. It also features analog configuration and
-        calibration. </p>
     </article>
   </div>
 </body>

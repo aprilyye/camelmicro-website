@@ -1,3 +1,7 @@
+h3 {
+  text-align: left;
+  margin-left: 50px;
+}
 nav {
 text-align: right;
 margin: 0px;
@@ -31,8 +35,7 @@ nav li {
 
 body{
  margin: 0px;
- font-family: 'Arial';
-
+ font-family: 'Helvetica';
 }
 
 input{
@@ -77,8 +80,57 @@ div {
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
+    line-height: 30px;
 }
 
+
+/* product page */
+.productleft {
+  float: left;
+  padding: 50px 100px 50px 50;
+}
+
+productp {
+  color: black;
+}
+
+producth1 {
+  padding-left: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+producth3 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  line-height: 50px;
+}
+
+.panel {
+    padding: 18px;
+    margin-left: 100px;
+    width: 40%;
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+#product-title {
+    color: #ff8533;
+    font-family: Helvetica;
+    font-size: 50px;
+}
+
+#product-title2 {
+    color: #ff8533;
+    font-family: Helvetica;
+    text-align: left;
+    font-size: 50px;
+}
 
 .blogpost {
     border-radius: 5px;
