@@ -1,3 +1,8 @@
+/* font-family: 'Roboto', sans-serif; */
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,400,700,400italic,500,300,100,100italic);
+/* font-family: 'Montserrat', sans-serif; */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 h3 {
   text-align: left;
   margin-left: 50px;
@@ -139,8 +144,9 @@ producth3 {
 }
 
 .headerpic {
+  margin-left: 1em;
   height: 80px;
-  width: 1602px;
+  width: 500px;
 }
 .diagrams{
   width:50%;
