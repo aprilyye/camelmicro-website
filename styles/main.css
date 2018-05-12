@@ -149,8 +149,9 @@ producth3 {
 }
 
 .headerpic {
+  margin-left: 1em;
   height: 80px;
-  width: 1602px;
+  width: 500px;
 }
 .diagrams{
   width:50%;

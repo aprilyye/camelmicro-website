@@ -1,5 +1,5 @@
 <header>
-  <img src="documents/CamelMicro header.png" class="headerpic" alt="Biggie"/>
+  <img src="documents/CamelMicroLogo.png" class="headerpic" alt="Biggie"/>
   <nav>
     <ul>
   <?php
