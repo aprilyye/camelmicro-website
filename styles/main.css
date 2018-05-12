@@ -9,11 +9,11 @@ h3 {
 }
 
 nav {
-text-align: right;
-margin: 0px;
-padding-bottom:20px;
-background-color: white;
-width:100%;
+  text-align: right;
+  margin: 0px;
+  padding-bottom:20px;
+  background-color: white;
+  width:100%;
 }
 
 nav a{
@@ -40,7 +40,7 @@ nav li {
 }
 
 body{
- margin: 0px;
+ /* margin: 0px; */
  font-family: Roboto;
 }
 
@@ -137,7 +137,7 @@ producth3 {
 
 #product-title2 {
     color: #ff8533;
-    font-family: Helvetica;
+    font-family: Roboto;
     text-align: left;
     font-size: 50px;
 }
