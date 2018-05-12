@@ -40,8 +40,8 @@ nav li {
 }
 
 body{
- /* margin: 0px; */
  font-family: Roboto;
+ margin: 50px;
 }
 
 input{
@@ -83,10 +83,8 @@ textarea {
 
 div {
     border-radius: 5px;
-    /* background-color: #f2f2f2; */
     background-color: white;
     padding: 20px;
-    text-align: center;
     line-height: 30px;
 }
 
@@ -102,7 +100,6 @@ productp {
 }
 
 producth1 {
-  padding-left: 50px;
   font-size: 20px;
   color: black;
   text-align: left;
@@ -116,6 +113,7 @@ producth3 {
   font-weight: bold;
   margin-bottom: 50px;
   line-height: 50px;
+  font-family: Roboto;
 }
 
 .panel {
@@ -123,10 +121,12 @@ producth3 {
     margin-left: 100px;
     width: 40%;
     /* background-color: #f2f2f2; */
-    background-color: rgba(242,238,227, 0.5);
+    /* background-color: rgba(242,238,227, 0.5); */
+    background-color: rgba(183, 180, 178, 0.2);
     text-align: left;
     overflow: hidden;
     transition: 0.4s;
+    font-family: Roboto;
 }
 
 #product-title {
@@ -136,7 +136,8 @@ producth3 {
 }
 
 #product-title2 {
-    color: #ff8533;
+    /* color: #ff8533; */
+    color: #42413e;
     font-family: Roboto;
     text-align: left;
     font-size: 50px;
