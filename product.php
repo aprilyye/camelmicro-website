@@ -18,7 +18,7 @@ include('includes/header.php');
   <div id="content-wrap">
     <article id="content">
       <h2 id="product-title">M2: 32-bit Mixed-Signal Processor</h2>
-      <producth1> M2 is a CMOS Mixed Signal Processor (MSP) for intelligent
+      <producth1>M2 is a CMOS Mixed Signal Processor (MSP) for intelligent
         medical/sensor applications with 32-bit embedded computing power.
         It provides a complete set of system modules to support embedded data
         acquisition, algorithm analysis, internal controlling, external interrupt,

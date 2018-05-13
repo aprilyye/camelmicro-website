@@ -10,8 +10,9 @@
 !/box/
 /box/*
 
+
 # Tell Git to NOT ignore your EACH seed file in your your upload folders.
 !/box/1.pdf
 
 !/diagram/
-!/product.png/
+!/product.png
