@@ -1,7 +1,8 @@
 <?php
 include('includes/init.php');
+$current_page_id = 'blog';
 include('includes/header.php');
-$current_page = 'blog.php';
+
 $db=open_or_init_sqlite_db('blog.sqlite', "init/init.sql");
 ?>
 <!DOCTYPE html>

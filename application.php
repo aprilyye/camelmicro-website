@@ -1,7 +1,8 @@
 <?php
 include('includes/init.php');
+$current_page_id = 'application';
 include('includes/header.php');
-$current_page = 'application.php';
+
 $db=open_or_init_sqlite_db('applications.sqlite', "init/init.sql");
 $records = exec_sql_query($db, "SELECT * FROM applications")->fetchAll(PDO::FETCH_ASSOC);
 ?>

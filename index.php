@@ -1,7 +1,8 @@
 <?php
 include('includes/init.php');
+$current_page_id = "index";
 include('includes/header.php');
-$current_page = 'contact.php';
+
 ?>
 <!DOCTYPE html>
 <html>

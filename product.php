@@ -1,7 +1,8 @@
 <?php
 include('includes/init.php');
+$current_page_id = 'product';
 include('includes/header.php');
-$current_page = 'product.php';
+
 ?>
 <!DOCTYPE html>
 <html>

@@ -1,10 +1,15 @@
 <header>
-  <img src="documents/CamelMicroLogo.png" class="headerpic" alt="Biggie"/>
   <nav>
     <ul>
   <?php
-  foreach ($pages as $page => $page_id){
-    echo '<li><a href='. $page_id .'>'. $page. '</a></li>';
+  echo "<a href=\"index.php\" class=\"logo\" id=\"n\"><img src=\"documents/CamelMicroLogo.png\" class=\"headerpic\" alt=\"Biggie\"/></a>";
+  foreach($pages as $id => $name) {
+    if ($id == $current_page_id) {
+      $css_id = "id='current_page'";
+    } else {
+      $css_id = "";
+    }
+    echo " <li><a " . $css_id . " href='" . $id. ".php'>$name</a></li>";
   }
   ?>
 </ul>

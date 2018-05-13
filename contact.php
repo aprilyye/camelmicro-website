@@ -1,7 +1,8 @@
 <?php
 include('includes/init.php');
+$current_page_id = 'contact';
 include('includes/header.php');
-$current_page = 'contact.php';
+
 $contact_messages = array();
 
 if (isset($_POST['send_message'])){

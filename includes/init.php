@@ -2,11 +2,11 @@
 
 
 $pages = array(
-  "Home" => 'index.php',
-  "Product" => 'product.php',
-  "Application" => 'application.php',
-  "Blog" => 'blog.php',
-  "Contact" => 'contact.php',
+  "index"=>"Home",
+  "product"=>"Product",
+  "application" => "Applications",
+  "blog" => "Blog",
+  "contact" => "Contact"
 );
 
 
