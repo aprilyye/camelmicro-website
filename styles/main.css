@@ -9,11 +9,17 @@ h3 {
 }
 
 nav {
+  background-color: white;
   text-align: right;
   margin: 0px;
-  padding-bottom:20px;
-  background-color: white;
+  padding-bottom:10px;
+  padding-right: 15px;
   width:100%;
+  overflow: hidden;
+  position:fixed;
+  top: 0;
+  border-bottom: solid;
+  border-image: linear-gradient(to right,blue,  #F27828, blue) .5 stretch;
 }
 
 /* nav a{
@@ -24,21 +30,15 @@ nav {
 nav a:hover{
   color: blue;
 } */
-
 nav ul{
-  list-style: none;
-  margin: 10;
-  border-right: black;
-
+  -webkit-padding-start: 0px;
 }
-
 nav li {
    color:blue;
    font-weight: 700;
    display: inline-block;
-	 padding-top: 10px;
-	 padding-left: 25px;
-	 padding-right: 25px;
+	 padding-top: 15px;
+	 padding-right: 80px;
 
 }
 nav a{
@@ -56,6 +56,7 @@ nav a:hover{
   text-decoration: underline;
 }
 nav img{
+
   float:left;
 }
 #current_page {
@@ -67,7 +68,8 @@ nav img{
 
 body{
  font-family: Roboto;
- margin: 50px;
+ margin:0;
+ margin-top: 60px;
 }
 
 input{
@@ -185,7 +187,7 @@ producth3 {
 }
 
 .headerpic {
-  margin-left: 1em;
+  margin-left: 2em;;
   height: 50px;
   width: 300px;
 }
