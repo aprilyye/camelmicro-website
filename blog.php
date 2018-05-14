@@ -16,17 +16,20 @@ $db=open_or_init_sqlite_db('blog.sqlite', "init/init.sql");
 </head>
 
 <body>
+  <div>
+  <h1> Blogs</h1>
+  </div>
   <?php
-  echo '<div>';
+  echo '<div id=\'blog\'>';
   echo '<h2>' ;
   echo 'Add a Post' ;
   echo '</h2>';
   echo
-  "<form action='' method='post'>
+  "<div id='entry'><form action='' method='post'>
   <input type='text' placeholder ='Title' name='Title'>
   <textarea ='text' placeholder ='Text' name='Text'></textarea>
   <input type='submit' name='Post' value='Add Tag' />
-  </form>";
+  </form></div>";
   if(isset($_POST['Post'])){
     $Title = $_POST['Title'];
     $Text = $_POST['Text'];

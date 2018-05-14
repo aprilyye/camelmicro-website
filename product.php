@@ -15,17 +15,20 @@ include('includes/header.php');
 </head>
 
 <body>
-  <div id="content-wrap">
-    <article id="content">
-      <h2 id="product-title">M2: 32-bit Mixed-Signal Processor</h2>
-      <producth1>M2 is a CMOS Mixed Signal Processor (MSP) for intelligent
+      <h1>M2: 32-bit Mixed-Signal Processor</h1>
+      <h4>M2 is a CMOS Mixed Signal Processor (MSP) for intelligent
         medical/sensor applications with 32-bit embedded computing power.
         It provides a complete set of system modules to support embedded data
         acquisition, algorithm analysis, internal controlling, external interrupt,
         PWM, connectivity, and LCD driving. It also features analog configuration and
-        calibration. </producth1>
-      <img id="imgopen" class="productleft" alt="Image Upload" src="uploads/product.png" width="550" height="550"/>
+        calibration. </h4>
+          <div class='row'>
+            <div class='column'>
 
+      <img id="imgopen" class="productleft" alt="Image Upload" src="uploads/product.png" width="300" height="300"/>
+
+      </div>
+      <div id="column">
       <h2 id="product-title2">Features</h2>
       <div class="panel">
         <producth3>Microprocessor Core Unit</producth3>
@@ -54,8 +57,8 @@ include('includes/header.php');
       <producth3>Software Development</producth3>
         <li>CamelStudio IDE</li>
       </div>
+</div>
+</div>
 
-    </article>
-  </div>
 </body>
 </html>
