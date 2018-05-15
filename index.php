@@ -1,11 +1,10 @@
+<!DOCTYPE html>
+<html>
+
 <?php
 include('includes/init.php');
 $current_page_id = "index";
-include('includes/header.php');
-
 ?>
-<!DOCTYPE html>
-<html>
 
 <head>
   <meta charset="UTF-8" />
@@ -15,6 +14,9 @@ include('includes/header.php');
 </head>
 
 <body>
+  <?php
+  include('includes/header.php');
+   ?>
 <div>
 <h1> Company Overview </h1>
   <p id='home'>Camel microelectronics is a fabless integrated circuit design company with focus on 32bit  MCU(micro-controller unit) products for medical, industrial automation, instrument, automotive, electronic and IoT (Internet of Things) devices.  Camel microelectronics is headquartered in Shanghai, China. Camel microelectronics also has R&D center in silicon valley, USA.  Camel microelectronics provides, world class performance, quality and cost, 32bit MCU solutions to medical appliance, advanced motor control, industrial automation, and IoT devices.

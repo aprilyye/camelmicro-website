@@ -251,7 +251,7 @@ table{
   border: 1px solid;
 } */
 td{
-  height:300;
+  height:300px;
   text-align: center;
   padding: 10px;
   border:1px solid;
@@ -261,17 +261,14 @@ td{
   border-width: 30px;
   font-size: 30px;
 }
-/* tr{
+tr{
   padding-bottom: 3em;
-} */
+}
 table {
     border-collapse: collapse;
 }
 
-td {
-    padding-top: .5em;
-    padding-bottom: .5em;
-}
+
 td:hover{
   font-size: 40px;
   background:#F27828;
