@@ -143,8 +143,8 @@ figcaption {
 }
 
 #imgopen{
-  height: 70%;
-  width: 70%;
+  height: 500px;
+  width: 550px;
 }
 
 productp {
@@ -223,6 +223,7 @@ h5 {
 
 figure {
     display: block;
+    padding-left: 70px;
 }
 
 .blogpost {
