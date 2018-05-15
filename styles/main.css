@@ -133,12 +133,18 @@ textarea {
 /* product page */
 .productleft {
   float: left;
+  padding: 50 100px 5px 90;
+}
+
+figcaption {
   padding: 50 100px 50px 90;
+  font-family: Roboto;
+  font-weight: lighter;
 }
 
 #imgopen{
   height: 60%;
-  width: 60%;
+  width: 70%;
 }
 
 productp {
@@ -215,6 +221,10 @@ producth3 {
     text-align: left;
     font-size: 50px;
     padding-bottom: 0;
+}
+
+figure {
+    display: block;
 }
 
 .blogpost {
