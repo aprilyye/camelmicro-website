@@ -25,7 +25,7 @@ include('includes/header.php');
           <div class='row'>
             <div class='column'>
 
-      <img id="imgopen" class="productleft" alt="Image Upload" src="uploads/product.png" width="300" height="300"/>
+      <img id="imgopen" class="productleft" alt="Image Upload" src="uploads/product.png"/>
 
       </div>
       <div id="column">
