@@ -1,9 +1,11 @@
+
+
 <?php
 include('includes/init.php');
 $current_page_id = 'product';
-include('includes/header.php');
 
 ?>
+
 <!DOCTYPE html>
 <html>
 
@@ -15,6 +17,9 @@ include('includes/header.php');
 </head>
 
 <body>
+    <?php
+    include("includes/header.php");
+     ?>
       <h1>M2: 32-bit Mixed-Signal Processor</h1>
       <h4>M2 is a CMOS Mixed Signal Processor (MSP) for intelligent
         medical/sensor applications with 32-bit embedded computing power.

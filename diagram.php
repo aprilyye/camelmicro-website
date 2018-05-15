@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <?php
 include('includes/init.php');
 $current_page_id = 'diagram';
@@ -11,8 +13,7 @@ $db=open_or_init_sqlite_db('applications.sqlite', "init/init.sql");
 $records = exec_sql_query($db, "SELECT image FROM applications WHERE id=$ref_id")->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-<!DOCTYPE html>
-<html>
+
 
 <head>
   <meta charset="UTF-8" />
