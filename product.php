@@ -25,7 +25,9 @@ include('includes/header.php');
           <div class='row'>
             <div class='column'>
 
+      <!-- image is provided by CamelMicro -->
       <img id="imgopen" class="productleft" alt="Image Upload" src="uploads/product.png" width="300" height="300"/>
+      <p id="pimg">Image taken by CamelMicro</p>
 
       </div>
       <div id="column">

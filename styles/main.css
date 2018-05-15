@@ -212,6 +212,10 @@ producth3 {
     padding-bottom: 0;
 }
 
+#pimg {
+    font-size: 10px;
+}
+
 .blogpost {
     border-radius: 5px;
     padding: 20px;
