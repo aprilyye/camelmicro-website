@@ -531,11 +531,92 @@ We made design changes according to peers' feedback:
 
 [Copy your tasks here from Milestone 2. Update them if you need to and then conduct another cognitive walkthrough.]
 
+Task 1: Navigating and learning more about a certain application of CamelMicro products (ex. Military)
+
+1. Go to the Application Page
+2. Scroll down to see all the different application options
+3. Press on option "Automotive"
+
+Task 2: Navigating to a specific blog post from September 2017
+
+1. Go to the Blog Page
+2. Press on Archive (September 2017)
+3. Scroll down for the blog post from all posts in September 2017
+
+Task 3: Navigating And submitting information to the contact form.
+
+1. Go to the Contact Page
+2. Fill out required queries on form
+3. Submit form
+
 ### Cognitive Walk-though Results
 
 [Did you discover any issues with your design? What were they? How did you change your design to address the gender-inclusiveness bugs you discovered?]
 
 [Your responses here should be very thorough and thoughtful.]
+#### Task 1 - Cognitive Walkthrough
+
+**Task 1: Navigating and learning more about CamelMicro products**
+
+  1. Go to the Application Page
+
+  **Action 1 : Click on Application Page**
+  At this step, Abby is expected to know what to do at this step because the task at hand is simple enough for Abby to execute given her low computer self-efficacy score, and she is then able to gather information comprehensively to achieve the task at hand. She is also making progress towards her goal in finding out different application options for CamelMicro's product because she now knows that she has hit the Application page.
+
+
+  2. Scroll down to Applications
+
+  **Action 2 : Scroll down to see the different Application options**
+  At this step, we know that Abby tends to gather information comprehensively, meaning she tries to read a lot first before actually executing the task at hand. The way our wireframe is laid out allows this to be executed well, as the applications are listed in a simple, straight-forward table view as Abby scrolls before she finds the one she wants. She also knows that she is making progress towards her goal because she is scrolling down all possible applications (thereby minimizing risk) before choosing an application (which will change color when mouse is hovered over) via clicking.
+
+  3. Press on Automotive
+
+  **Action 3 : Click on the Automotive option to know more**
+  At this step, we know that Abby has high risk aversion, meaning she will not execute an action before she knows that she is certain the action she is doing will warrant the given result. At this stage of the action, she is now certain that clicking on the Automotive option will allow her to actively look into the Automotive applications of the CamelMicro product, successfully completing her goal.
+
+
+
+#### Task 2 - Cognitive Walkthrough
+
+**Task 2: Navigating to a specific blog post from September 2017**
+
+1. Go to the Blog Page
+
+**Action 1 : Click on Blog Page**
+At this step, Abby is expected to know what to do at this step because the task at hand is simple enough for Abby to execute given her low computer self-efficacy score, and she is then able to gather information comprehensively to achieve the task at hand. She is also making progress towards her goal in finding the blog post from September 2017 because she now knows that she has hit the Blog page where she will be able to find the blog post from September 2017.
+
+
+2. Press on Archive (September 2017)
+
+**Action 2 : Scroll down to the Archive**
+At this step, we know that Abby tends to gather information comprehensively, meaning she tries to read a lot first before actually executing the task at hand. The way our wireframe is laid out allows this to be executed well, as the applications are listed down as Abby scrolls before she finds the one she wants. She also knows that she is making progress towards her goal because she is scrolling down all months/years (thereby minimizing risk) and finding the September 2017 link.
+
+**Action 3: Press on September 2017**
+At this step, we know that Abby is certain, based on her high risk aversion, that she will be able to find a post that is from September 2017, given the signal from the title of the section (Archive) and the actual month.
+
+3. Scroll down for the blog post from all posts in September 2017
+
+**Action 4 : Scroll to find the post**
+At this step, given Abby's comprehensive information style, we know that Abby will want to first scroll down through all blog posts before actually finding the one she wants. Therefore, we simplified our wireframe to accommodate this step so that she can now find the blog post at hand. This also minimizes her risk at hand because she will know which blog post from September 2017 is, successfully accomplishing her goal.
+
+**Task 3: Navigating And submitting information to the contact form.**
+
+1. Go to the Contact Page
+
+**Action 1 : Click on Contact Page**
+At this step, Abby should  know what to do because the task at hand is logic driven and simplistic for Abby to execute given her low computer self-efficacy score, and she is then able to gather information comprehensively to achieve the task at hand. She is also making progress towards her goal in finding the Contact page in order to submit her concerns to CamelMicro.
+
+
+2. Fill out required queries on form
+
+**Action 2 : Fill out each query on the form**
+At this step, we know that Abby has high risk aversion and process oriented learning. This means that she wants to make sure that each step of the way, she is completing the right query and form before she submits anything. By emphasizing for the form a top-down approach before Abby ever hits submit, we ensure that Abby knows that she/he is required to fill out each query before moving on to the submission, also letting her know that she is reaching her goal.
+
+3. Submit form
+
+**Action 3 : Hit submit**
+We know that Abby gathers information comprehensively and is aversive to risk, so in finally filling out each query (with filtered input and escaped output), we know that Abby has successfully minimized her risk in making an error with the form submission and has gathered all the information on the site sufficiently to execute the goal at hand, which in this case reflects submission of the form and query to CamelMicro.
+
 
 ## Milestone 5: Final Notes to the Clients
 
