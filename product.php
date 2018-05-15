@@ -38,31 +38,37 @@ $current_page_id = 'product';
         <div id="column">
         <h2 id="product-title2">Features</h2>
         <div class="panel">
-          <producth3>Microprocessor Core Unit</producth3>
-          <li>5-stage pipeline </li>
-          <li>MIPS-II ISA</li>
-          <li>2Kx32 bit boot ROM</li>
-          <li>1M-bit embedded FLASH</li>
-          <li>2Kx32 bit SRAM</li>
-          <li>MMU with simple fixed mapping transition (FMT)</li>
-          <li>1 cycle interrupt response with atomic control</li>
+          <h5>Microprocessor Core Unit</h5>
+          <ul>
+            <li>5-stage pipeline </li>
+            <li>MIPS-II ISA</li>
+            <li>2Kx32 bit boot ROM</li>
+            <li>1M-bit embedded FLASH</li>
+            <li>2Kx32 bit SRAM</li>
+            <li>MMU with simple fixed mapping transition (FMT)</li>
+            <li>1 cycle interrupt response with atomic control</li>
+          </ul>
 
-        <producth3>Peripheral System Unit</producth3>
-          <li>Extendable external interrupt controller with atomic rise/fall edge control</li>
-          <li>Power management with Battery low detection</li>
-          <li>32-bit Timer/Event/Counter – 1-4 PWM Module</li>
-          <li>12-bit V2P (Voltage to Pulse) Module</li>
-          <li>16-bit Σ-∆ ADC and Digital Filter</li>
-          <li>Low Noise Op-Amp with PGA and ZERO ADJUSTMENT</li>
-          <li>Embedded 32-SEG x 4-COM LCD Driver</li>
-          <li>Two UART/LIN Communication Modules</li>
-          <li>SPI Communication Module</li>
-          <li>Real-Time Clock (RTC) Module</li>
-          <li>Pulse-Width Measurement Module</li>
-          <li>Watch Dog Timer Module</li>
+        <h5>Peripheral System Unit</h5>
+          <ul>
+            <li>Extendable external interrupt controller with atomic rise/fall edge control</li>
+            <li>Power management with Battery low detection</li>
+            <li>32-bit Timer/Event/Counter – 1-4 PWM Module</li>
+            <li>12-bit V2P (Voltage to Pulse) Module</li>
+            <li>16-bit Σ-∆ ADC and Digital Filter</li>
+            <li>Low Noise Op-Amp with PGA and ZERO ADJUSTMENT</li>
+            <li>Embedded 32-SEG x 4-COM LCD Driver</li>
+            <li>Two UART/LIN Communication Modules</li>
+            <li>SPI Communication Module</li>
+            <li>Real-Time Clock (RTC) Module</li>
+            <li>Pulse-Width Measurement Module</li>
+            <li>Watch Dog Timer Module</li>
+          </ul>
 
-        <producth3>Software Development</producth3>
-          <li>CamelStudio IDE</li>
+        <h5>Software Development</h5>
+          <ul>
+            <li>CamelStudio IDE</li>
+          </ul>
       </div>
     </div>
     </div>
