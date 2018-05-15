@@ -25,9 +25,13 @@ include('includes/header.php');
           <div class='row'>
             <div class='column'>
 
+<<<<<<< HEAD
       <!-- image is provided by CamelMicro -->
       <img id="imgopen" class="productleft" alt="Image Upload" src="uploads/product.png" width="300" height="300"/>
       <p id="pimg">Image taken by CamelMicro</p>
+=======
+      <img id="imgopen" class="productleft" alt="Image Upload" src="uploads/product.png"/>
+>>>>>>> dd170f0d00ddd41c197110702bfaefcc32c67808
 
       </div>
       <div id="column">

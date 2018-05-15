@@ -47,6 +47,7 @@ if (isset($_POST['send_message'])){
   }
 } else{
  ?>
+ <p> Send us a message with your questions and concerns! Please allow 3-5 business days for a reply. </p>
 <div class = "contact">
 <form name='contact_form' method = "POST" action= "contact.php">
   <input type="text" name ="visitor_name" placeholder="Your name" required>

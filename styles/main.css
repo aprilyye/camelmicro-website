@@ -136,6 +136,11 @@ textarea {
   padding: 50 100px 50px 90;
 }
 
+#imgopen{
+  height: 60%;
+  width: 60%;
+}
+
 productp {
   color: black;
 }
