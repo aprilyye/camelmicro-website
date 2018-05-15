@@ -21,13 +21,15 @@ function mail_out(){
   GLOBAL $email_content;
   GLOBAL $email_subject;
   GLOBAL $contact_messages;
-  if (filter_var($sender_email, FILTER_VALIDATE_EMAIL)){
+  if (!filter_var($sender_email, FILTER_VALIDATE_EMAIL)){
+    array_push($contact_messages, "Your email is invalid. Please try again");
+  } elseif (!preg_match('/^[a-zA-Z]+$/', $sender)) {
+    array_push($contact_messages, " Please try again and enter valid name; no numbers please");
+  } else {
     $my_email = "izhao97@gmail.com";
     $header= "From: ".$sender." <".$sender_email.">";
     mail($my_email, $email_subject, $email_content, $header);
     array_push($contact_messages, "Your email has been sent");
-  }else {
-    array_push($contact_messages, "Your email is invalid. Please try again");
   }
 }
 

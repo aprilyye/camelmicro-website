@@ -22,7 +22,8 @@ $records = exec_sql_query($db, "SELECT * FROM applications")->fetchAll(PDO::FETC
   <div>
 
   <h1>Applications</h1>
-  <p>Camel Micro microchips have a variety of application. Find specific information below:</p>
+  <p>Camel Micro microchips have a variety of application. Find specific information below. The words will be underlined when you hover over them.
+    When you see the underline, click on the word itself.</p>
 
 <table>
 
