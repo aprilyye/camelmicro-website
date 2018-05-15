@@ -29,3 +29,17 @@ CREATE TABLE blog (
 );
 
 INSERT INTO blog (Title, Date, Text) VALUES ('Sample Blog Post', 'April 2018', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.');
+
+CREATE TABLE Accounts (
+id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+username TEXT NOT NULL UNIQUE,
+password TEXT NOT NULL,
+Name TEXT NOT NULL,
+privilege TEXT NOT NULL,
+session	BOOLEAN 
+);
+
+INSERT INTO Accounts (username, password, Name, privilege) VALUES ('bill.xie', '$2y$10$VXmgdmza.DZpY38oxORwieWHmmBvZeOhWtZ8/FGzRZOhFaI252luK', 'Bill Xie', 'admin');
+/* password is info2300secure */
+INSERT INTO Accounts (username, password, Name, privilege) VALUES ('john.ye', '$2y$10$T5.xRV/whaxKJ/p2Q9PZ4.TRL9RVIQCJgsKJikFcS7qqhkgDI.WXS', 'John Ye', 'admin');
+/* password is camelmicrosecure */
