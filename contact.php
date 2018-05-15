@@ -19,7 +19,7 @@ function mail_out(){
   GLOBAL $email_content;
   GLOBAL $email_subject;
   GLOBAL $contact_messages;
-  $my_email = "izhao97@gmail.com";
+  $my_email = "prajanan.senthilkumar@gmail.com";
   $header= "From: ".$sender." <".$sender_email.">";
   mail($my_email, $email_subject, $email_content, $header);
   array_push($contact_messages, "Your email has been sent");
@@ -37,6 +37,8 @@ function mail_out(){
 </head>
 
 <body>
+<div id = "contact">
+  <h1> Contact Us </h1>
 <?php
 if (isset($_POST['send_message'])){
   mail_out();
@@ -45,8 +47,6 @@ if (isset($_POST['send_message'])){
   }
 } else{
  ?>
-<div id = "contact">
- <h1> Contact Us </h1>
 <div class = "contact">
 <form name='contact_form' method = "POST" action= "contact.php">
   <input type="text" name ="visitor_name" placeholder="Your name" required>
