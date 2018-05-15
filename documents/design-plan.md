@@ -486,9 +486,9 @@ include init.php
 include header.php
 
 Display title of the solo product
-Display slideshow of product image floated left
-Display accordion of collapsed features of product on right
-Display overview description text of product below the slideshow image
+Display overview description text of product above the slideshow image
+Display solo product image floated left
+Display list of features of product on right as text
 ```
 
 #### applications.php
