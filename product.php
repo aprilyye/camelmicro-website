@@ -30,11 +30,10 @@ $current_page_id = 'product';
           <div class='row'>
             <div class='column'>
 
-
-      <!-- image is provided by CamelMicro -->
       <figure>
         <img id="imgopen" class="productleft" alt="Image Upload" src="uploads/product.png"/>
         <figcaption>Image taken by CamelMicro</figcaption>
+              <!-- image is provided by CamelMicro -->
       </figure>
 
       </div>
