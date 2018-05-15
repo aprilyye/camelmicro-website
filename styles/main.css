@@ -133,7 +133,18 @@ textarea {
 /* product page */
 .productleft {
   float: left;
+  padding: 50 100px 5px 90;
+}
+
+figcaption {
   padding: 50 100px 50px 90;
+  font-family: Roboto;
+  font-weight: lighter;
+}
+
+#imgopen{
+  height: 70%;
+  width: 70%;
 }
 
 productp {
@@ -174,13 +185,11 @@ h4{
   line-height: 1.7em;
 
 }
-producth3 {
+h5 {
   width:50%;
   text-align: left;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 50px;
-  line-height: 50px;
   font-family: Roboto;
 }
 
@@ -212,6 +221,10 @@ producth3 {
     padding-bottom: 0;
 }
 
+figure {
+    display: block;
+}
+
 .blogpost {
     border-radius: 5px;
     padding: 20px;
@@ -236,7 +249,7 @@ table{
   border: 1px solid;
 } */
 td{
-  height:300;
+  height:300px;
   text-align: center;
   padding: 10px;
   border:1px solid;
@@ -246,17 +259,14 @@ td{
   border-width: 30px;
   font-size: 30px;
 }
-/* tr{
+tr{
   padding-bottom: 3em;
-} */
+}
 table {
     border-collapse: collapse;
 }
 
-td {
-    padding-top: .5em;
-    padding-bottom: .5em;
-}
+
 td:hover{
   font-size: 40px;
   background:#F27828;

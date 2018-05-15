@@ -486,9 +486,9 @@ include init.php
 include header.php
 
 Display title of the solo product
-Display slideshow of product image floated left
-Display accordion of collapsed features of product on right
-Display overview description text of product below the slideshow image
+Display overview description text of product above the slideshow image
+Display solo product image floated left
+Display list of features of product on right as text
 ```
 
 #### applications.php
@@ -521,27 +521,127 @@ Additionally, we are setting up a video call with Bill Xie, our main point of co
 
 [If you make any changes to your plan or design based on your peers' feedback, make a list of the changes here.]
 
+We made design changes according to peers' feedback:
+
+1. The header was changed to be more minimalistic and aesthetic, instead of the original pink/multicolor hashed image background. Now, the header is a minimalistic white with color-coordinated tab color/hover colors.
+
+2. Overall design of the website is unified with font size and font family, and margins are made uniform as well. This is an update from the original different combination of fonts, margin sizes, and font sizes across the site.
 
 ## Milestone 5: Cognitive Walkthrough
 
 [Copy your tasks here from Milestone 2. Update them if you need to and then conduct another cognitive walkthrough.]
+
+Task 1: Navigating and learning more about a certain application of CamelMicro products (ex. Military)
+
+1. Go to the Application Page
+2. Scroll down to see all the different application options
+3. Press on option "Automotive"
+
+Task 2: Navigating to a specific blog post from September 2017
+
+1. Go to the Blog Page
+2. Press on Archive (September 2017)
+3. Scroll down for the blog post from all posts in September 2017
+
+Task 3: Navigating And submitting information to the contact form.
+
+1. Go to the Contact Page
+2. Fill out required queries on form
+3. Submit form
 
 ### Cognitive Walk-though Results
 
 [Did you discover any issues with your design? What were they? How did you change your design to address the gender-inclusiveness bugs you discovered?]
 
 [Your responses here should be very thorough and thoughtful.]
+#### Task 1 - Cognitive Walkthrough
+
+**Task 1: Navigating and learning more about CamelMicro products**
+
+  1. Go to the Application Page
+
+  **Action 1 : Click on Application Page**
+  At this step, Abby is expected to know what to do at this step because the task at hand is simple enough for Abby to execute given her low computer self-efficacy score, and she is then able to gather information comprehensively to achieve the task at hand. She is also making progress towards her goal in finding out different application options for CamelMicro's product because she now knows that she has hit the Application page.
+
+
+  2. Scroll down to Applications
+
+  **Action 2 : Scroll down to see the different Application options**
+  At this step, we know that Abby tends to gather information comprehensively, meaning she tries to read a lot first before actually executing the task at hand. The way our wireframe is laid out allows this to be executed well, as the applications are listed in a simple, straight-forward table view as Abby scrolls before she finds the one she wants. She also knows that she is making progress towards her goal because she is scrolling down all possible applications (thereby minimizing risk) before choosing an application (which will change color when mouse is hovered over) via clicking.
+
+  3. Press on Automotive
+
+  **Action 3 : Click on the Automotive option to know more**
+  At this step, we know that Abby has high risk aversion, meaning she will not execute an action before she knows that she is certain the action she is doing will warrant the given result. At this stage of the action, she is now certain that clicking on the Automotive option will allow her to actively look into the Automotive applications of the CamelMicro product, successfully completing her goal.
+
+
+
+#### Task 2 - Cognitive Walkthrough
+
+**Task 2: Navigating to a specific blog post from September 2017**
+
+1. Go to the Blog Page
+
+**Action 1 : Click on Blog Page**
+At this step, Abby is expected to know what to do at this step because the task at hand is simple enough for Abby to execute given her low computer self-efficacy score, and she is then able to gather information comprehensively to achieve the task at hand. She is also making progress towards her goal in finding the blog post from September 2017 because she now knows that she has hit the Blog page where she will be able to find the blog post from September 2017.
+
+
+2. Press on Archive (September 2017)
+
+**Action 2 : Scroll down to the Archive**
+At this step, we know that Abby tends to gather information comprehensively, meaning she tries to read a lot first before actually executing the task at hand. The way our wireframe is laid out allows this to be executed well, as the applications are listed down as Abby scrolls before she finds the one she wants. She also knows that she is making progress towards her goal because she is scrolling down all months/years (thereby minimizing risk) and finding the September 2017 link.
+
+**Action 3: Press on September 2017**
+At this step, we know that Abby is certain, based on her high risk aversion, that she will be able to find a post that is from September 2017, given the signal from the title of the section (Archive) and the actual month.
+
+3. Scroll down for the blog post from all posts in September 2017
+
+**Action 4 : Scroll to find the post**
+At this step, given Abby's comprehensive information style, we know that Abby will want to first scroll down through all blog posts before actually finding the one she wants. Therefore, we simplified our wireframe to accommodate this step so that she can now find the blog post at hand. This also minimizes her risk at hand because she will know which blog post from September 2017 is, successfully accomplishing her goal.
+
+**Task 3: Navigating And submitting information to the contact form.**
+
+1. Go to the Contact Page
+
+**Action 1 : Click on Contact Page**
+At this step, Abby should  know what to do because the task at hand is logic driven and simplistic for Abby to execute given her low computer self-efficacy score, and she is then able to gather information comprehensively to achieve the task at hand. She is also making progress towards her goal in finding the Contact page in order to submit her concerns to CamelMicro.
+
+
+2. Fill out required queries on form
+
+**Action 2 : Fill out each query on the form**
+At this step, we know that Abby has high risk aversion and process oriented learning. This means that she wants to make sure that each step of the way, she is completing the right query and form before she submits anything. By emphasizing for the form a top-down approach before Abby ever hits submit, we ensure that Abby knows that she/he is required to fill out each query before moving on to the submission, also letting her know that she is reaching her goal.
+
+3. Submit form
+
+**Action 3 : Hit submit**
+We know that Abby gathers information comprehensively and is aversive to risk, so in finally filling out each query (with filtered input and escaped output), we know that Abby has successfully minimized her risk in making an error with the form submission and has gathered all the information on the site sufficiently to execute the goal at hand, which in this case reflects submission of the form and query to CamelMicro.
+
 
 ## Milestone 5: Final Notes to the Clients
 
 [Describe in some detail what the client will do (or would have to do) in order to make this website go live. What is the deployment plan?]
 
+For this course, we will be deploying via Heroku, but since Heroku does not save the data for more than 24 hours, CamelMicro will need a different deploying platform to make the website truly functional. CamelMicro plans to deploy it themselves to their domain name camelmicro.com.
+
 [Include any other information that your client needs to know about your final website design. For example, what client wants or needs were unable to be realized in your final product? Why were you unable to meet those wants/needs?]
+
+We don't have a search bar because we felt that it was not necessary design wise for the current plan, especially for our project persona Abby (for the most straight forward navigation for the website). CamelMicro also did not end up wanting a translation to Chinese version of the website, so that portion was not implemented.
 
 ## Milestone 5: Final Notes to the Graders
 
 [1. Give us three specific strengths of your site that sets it apart from the previous website of the client (if applicable) and/or from other websites. Think of this as your chance to argue for the things you did really well.]
 
+1. Our navigation of the site is a lot cleaner and straight forward (including the color palette, color differentiation of different actionable components, navigation bar, aesthetics, etc.)
+
+2. A lot of their links pointed to external sites or files, so our site consolidates everything very cleanly into one website that has easy navigation logic.
+
+3. We have a log in/log out function on our new site, so we can help CamelMicro differentiate between viewers and customers/registered users.
+
 [2. Tell us about things that don't work, what you wanted to implement, or what you would do if you keep working with the client in the future. Give justifications.]
 
+If we kept working with the client in the future, we would have tried to see if there was more content or more reason to have a search bar. The main reason why we did not implement a search bar this time was because CamelMicro gave us free reigns to implement/take out whichever components of the website, and we as a team felt that the search bar was not necessary, since there was nothing to "search". CamelMicro has only 1 product, and it is clearly displayed under the products tab. So, in the future, if they ever come up with more products, we would love to display that product on the site and incorporate a search bar if necessary.
+
 [3. Tell us anything else you need us to know for when we're looking at the project.]
+
+We also created our website so that for the Application page, each cell can only be clicked on to be taken to the next page by clicking the words, not the entire cell. We thought it would be clear for users that they know where their mouse is hovering at by changing color of the table cell from gray to orange when the cell was hovered over, but only when the users hover of the words in the cell will the words become underlined, and the user will be able to click through to the next page. We believe that designing our site this way would be the most straightforward for our users, since links/hyperlinks are usually correlated to taking pages to a new site, and hyperlinks/links are emphasized with an underline on the linked text. Thus, that is the method we chose to follow.

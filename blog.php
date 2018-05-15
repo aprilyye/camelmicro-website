@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <?php
 include('includes/init.php');
 $current_page_id = 'blog';
@@ -5,8 +8,6 @@ include('includes/header.php');
 
 $db=open_or_init_sqlite_db('login.sqlite', "init/init.sql");
 ?>
-<!DOCTYPE html>
-<html>
 
 <head>
   <meta charset="UTF-8" />
