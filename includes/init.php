@@ -10,7 +10,6 @@ $pages = array(
   "contact" => "Contact",
   "login" => "Log In/Log Out"
 );
-var_dump(isset($_SESSION));
 
 
 /** = Message Output = **/
@@ -75,8 +74,9 @@ function open_or_init_sqlite_db($db_filename, $init_sql_filename) {
 
 
 /** = Login/Logout Output = **/
-// structure of code taken partly from labs but modified to fit database and
-//site structure
+
+// structure of code taken partly from labs BUT modified to fit site structure,
+//database. Additonally, also fit to incorporate sessions variables
 
 // open connection to database
 $db = open_or_init_sqlite_db("login.sqlite", "init/init.sql");
@@ -87,16 +87,13 @@ function login() {
 //check login
 if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == TRUE) {
   $_SESSION['loggedin'] = TRUE;
-  var_dump($_SESSION["loggedin"]);
   $session = $_SESSION["loggedin"];
-  var_dump($session);
   $sql = "SELECT * FROM accounts WHERE session = :session";
   $params = array(
     ':session' => $session
   );
 
   $records = exec_sql_query($db, $sql, $params)->fetchAll(PDO::FETCH_ASSOC);
-  var_dump($records);
   if ($records) {
     // Username is UNIQUE, so there should only be 1 record.
     $account = $records[0];
@@ -116,21 +113,18 @@ function log_in($username, $password) {
       ':username' => $username,
     );
     $records = exec_sql_query($db, $sql, $params)->fetchAll(PDO::FETCH_ASSOC);
-    var_dump($records);
     if ($records) {
       //get the first unique record
       $account = $records[0];
       // Check password against database hash
       if (password_verify($password, $account['password'])) {
         Print_r ($_SESSION);
-        //var_dump(isset($_SESSION));
         $_SESSION['loggedin'] = TRUE;
         $_SESSION['username'] = $username;
         $session1 = $_SESSION["loggedin"];
-        var_dump($session1);
         $sql = "UPDATE accounts SET session = :session WHERE id = :user_id;";
         $params = array(
-          ':user_id' => $account['id'],
+          ':user_id' => $account['ID'],
           ':session' => $session1,
         );
         $result = exec_sql_query($db, $sql, $params);
@@ -160,6 +154,7 @@ function log_out() {
     unset($_SESSION["loggedin"]);
     session_destroy();
     }
+    //This is what is causing Array();
     Print_r ($_SESSION);
 
 

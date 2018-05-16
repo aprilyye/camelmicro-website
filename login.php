@@ -11,8 +11,8 @@ include('includes/header.php');
 	<head>
 		<meta charset="utf-8">
     <link rel='stylesheet' href='styles/main.css'/>
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Login</title>
 
 
 
@@ -21,14 +21,14 @@ include('includes/header.php');
     <body>
 
       <div id="content-wrap">
-        <h1>Log in</h1>
-
+        <h1>Log In/Log Out</h1>
+				<div id = "contact">
         <?php
         //helper function from init
         print_out();
         //FORM
         ?>
-        <form id="sam" action="login.php" method="post">
+        <form action="login.php" method="post">
           <ul>
             <br>
               <input type="text" name="username" placeholder="Username" required/>
@@ -41,11 +41,16 @@ include('includes/header.php');
       </div>
 
 <?php
+echo '<hr>';
+echo '<h2 id = centerline>';
+echo 'Log Out';
+echo '</h2>';
+echo '<div id = "contact1">';
       echo
       "<form action='' method='post'>
-      <input type='submit' name='delete' value='Delete' />
+      <input type='submit' name='delete1' value='Log Out' />
       </form>";
-      if(isset($_POST['delete']))
+      if(isset($_POST['delete1']))
 {
   log_out();
   if (isset($_SESSION)) {
@@ -53,7 +58,9 @@ include('includes/header.php');
     echo '<p class = "notloggedin" >You logged out successfully.</p>';
   }
 }
+echo '</div>';
 
 ?>
+</div>
     </body>
 </html>

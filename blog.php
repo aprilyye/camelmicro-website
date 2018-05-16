@@ -11,6 +11,7 @@ $db=open_or_init_sqlite_db('login.sqlite', "init/init.sql");
 
 <head>
   <meta charset="UTF-8" />
+  <link rel='stylesheet' href='styles/main.css'/>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Blog</title>
 </head>
@@ -18,15 +19,15 @@ $db=open_or_init_sqlite_db('login.sqlite', "init/init.sql");
 <body>
   <?php
   //initialize admin data
-  $access = exec_sql_query($db, "SELECT * FROM Accounts")->fetchAll(PDO::FETCH_ASSOC);
-?>
+  $access = exec_sql_query($db, "SELECT * FROM Accounts WHERE session='1'")->fetchAll(PDO::FETCH_ASSOC);
+  ?>
 
-<div>
-  <h1>Blogs</h1>
-</div>
-<?php
-$verify1 = login();
-var_dump($verify1);
+  <div>
+    <h1>Announcements</h1>
+  </div>
+  <?php
+
+  $verify1 = login();
   if ($verify1 != NULL){
     echo '<div id=\'blog\'>';
     echo '<h2>' ;
@@ -36,33 +37,95 @@ var_dump($verify1);
     "<div id='entry'><form action='' method='post'>
     <input type='text' placeholder ='Title' name='Title'>
     <textarea ='text' placeholder ='Text' name='Text'></textarea>
-    <input type='submit' name='Post' value='Add Tag' />
+    <input type='submit' name='Post' value='Add Post' />
     </form></div>";
     if(isset($_POST['Post'])){
       $Title = $_POST['Title'];
       $Text = $_POST['Text'];
-      $sql2 = "INSERT INTO blog (Title, Text) VALUES (:Title, :Text)"; $params2 = array(
+      $Name = NULL;
+      foreach($access as $dog){
+        $Name = $dog["Name"];
+      }
+      $Date1 = date('M Y');
+      $sql2 = "INSERT INTO blog (Title, Text, Name, Date) VALUES (:Title, :Text, :Name, :Date)"; $params2 = array(
         ':Title' => $Title,
         ':Text' => $Text,
+        ':Name' => $Name,
+        ':Date' => $Date1,
       );
       $addition2 = exec_sql_query($db, $sql2, $params2);
-
-    }
+      echo "Post Added!";
+      }
   }else{
   }
 
 
-$records = exec_sql_query($db, "SELECT * FROM blog")->fetchAll(PDO::FETCH_ASSOC);
 
-echo "<hr>";
-echo '<div class=blogpost>';
-foreach($records as $record){
-  echo "<h2>" . $record["Title"] . "</h2>";
-  echo "<p>" .$record["Text"]. "</p>";
-  echo "<br>";
-}
-echo '</div>';
- ?>
+  $records = exec_sql_query($db, "SELECT * FROM blog")->fetchAll(PDO::FETCH_ASSOC);
+
+  ?>
 </div>
+
+<?php
+
+
+$records = exec_sql_query($db, "SELECT DISTINCT blog.Date FROM blog;
+")->fetchAll(PDO::FETCH_ASSOC);
+//drop down menu
+echo "<h2 id = 'centerline'>" . "Archive by Month" . "</h2>";
+echo "<form id ='contact' method='post'>
+<select id ='selectdrop' name='input'>";
+foreach($records as $asd){
+  echo "<br>";
+  echo "<option value=\"" . htmlentities($asd['Date']) . "\">" . strval($asd['Date']) . "</option>" . "<br />";
+}
+echo "</select>";
+echo "<br>";
+echo "<input type='submit'  name='Submit' value='Search'>";
+echo "</form>";
+echo "<br>";
+
+
+
+if(isset($_POST['input'])) {
+  $added = $_POST['input'];
+  $mrecords = exec_sql_query($db, "SELECT * FROM blog WHERE Date= '".$added."'")->fetchAll(PDO::FETCH_ASSOC);
+
+  echo "<hr>";
+  echo "<h2>" . $added . "</h2>";
+  echo '<div id=contact>';
+  foreach($mrecords as $record){
+    echo "<h2>" . $record["Title"] . "</h2>";
+    echo "<h5>" . $record["Date"] . " | Posted by " .$record["Name"]. " | ". "<a href = \"" . "clickedblog.php?id=" . $record["ID1"] . "\"/>" .  "Comments" . "</a>"."</h5>";
+    echo "<p>" .$record["Text"]. "</p>";
+    echo "<br>";
+  }
+  echo "<h2 id = 'centerlinemessage'>";
+  echo "Press Blog to get to all posts";
+  echo "</h2>";
+
+
+}else{
+
+  //all posts
+  $records = exec_sql_query($db, "SELECT * FROM blog")->fetchAll(PDO::FETCH_ASSOC);
+
+  echo "<hr>";
+  echo "<h2 id = 'centerline'>" . "All Posts" . "</h2>";
+  echo "<div id  ='datepush'>";
+  $recordsi = array_reverse($records);
+  foreach($recordsi as $record){
+    echo "<h2>" . $record["Title"] . "</h2>";
+    echo "<h5>" . $record["Date"] . " | Posted by " .$record["Name"]. " | ". "<a href = \"" . "clickedblog.php?id=" . $record["ID1"] . "\"/>" .  "Comments" . "</a>"."</h5>";
+    echo "<p>" .$record["Text"]. "</p>";
+  }
+  echo '</div>';
+
+}
+
+
+?>
+
+
 </body>
 </html>

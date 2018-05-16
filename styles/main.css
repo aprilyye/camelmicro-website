@@ -100,6 +100,25 @@ input[type=submit]:hover {
     background-color: blue;
 }
 
+input[name=delete1] {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button[type=submit] {
+    width: 60%;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: blue;
+}
 
 textarea {
     width: 60%;
@@ -129,6 +148,47 @@ textarea {
   text-align: center;
 }
 
+#centerline {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#centerlinemessage {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  color: red;
+}
+
+#contact1{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-left:39;
+}
+
+
+#selectdrop {
+  width: 60%;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+
+#datepush {
+  margin-bottom: 200;
+
+}
+
+#datepush h5{
+  margin-left: 90;
+  border-color: red;
+
+}
 
 /* product page */
 .productleft {
@@ -231,6 +291,13 @@ figure {
     text-align: left;
 }
 
+.blogpost  h5{
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 33px;
+    text-align: left;
+}
+
 .headerpic {
   margin-left: 2em;;
   height: 50px;
@@ -313,4 +380,29 @@ p{
     content: "";
     display: table;
     clear: both;
+}
+
+.comments {
+  border: 1px solid;
+  width: 80%;
+  margin: auto;
+  background-color: #f2f2f2;
+}
+
+.comments h5{
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 0;
+  padding-left: 90;
+}
+
+.comments p {
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 0;
+  padding-left: 40;
+}
+
+.divide hr {
+  color: black;
 }
