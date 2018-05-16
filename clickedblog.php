@@ -33,8 +33,8 @@ if(isset($_POST['delete'])){
 }else{
 foreach($records as $record){
   echo "<h2>" . $record["Title"] . "</h2>";
-  echo "<h5>" . "Posted by " .$record["Name"]. " on ". $record["Date"] ."</h5>";
-  echo "<p>" .$record["Text"]. "</p>";
+  echo "<h3>" . "Posted by " .$record["Name"]. " on ". $record["Date"] ."</h3>";
+  echo "<p>" .nl2br($record["Text"]). "</p>";
   echo "<hr>";
   echo"<br>";
 }
@@ -57,7 +57,7 @@ foreach($comments as $comment){
     echo ":";
     echo "</h5>";
     echo "<p>";
-    echo $signal["Comment"];
+    echo nl2br($signal["Comment"]);
     echo "</p>";
     $dog = $signal["ID2"];
     //delete comment
@@ -65,45 +65,6 @@ foreach($comments as $comment){
     echo '</div>';
   }
 }
-}
-
-//delete comment
-echo "<br>";
-echo "<hr>";
-if(isset($_POST['delete'])){
-}else{
-$verify1 = login();
-    if ($verify1 != NULL){
-  echo "<br>";
-  echo "<p>"."Delete Comment:"."<p>";
-  echo "<form id ='contact' method='post'>
-  <select  id ='selectdrop' name='input1'>";
-  foreach($comments as $comm){
-    $weightclass= $comm["ID2"];
-    $signals = exec_sql_query($db, "SELECT * FROM Comments WHERE ID2=$weightclass")->fetchAll(PDO::FETCH_ASSOC);
-    foreach($signals as $signal){
-      echo $signal["ID2"];
-      echo "<br>";
-      echo $signal["User"];
-      echo "<br>";
-      echo "<option value=" .$signal['ID2']. ">". "(". $signal['User']. ")". " at: ".$signal[Time]. "</option>";
-    }
-  }
-    echo "</select>";
-    echo "<input type='submit' name='Submit' value='Delete'>";
-    echo "</form>";
-
-    if(isset($_POST['input1'])) {
-      //convert input into integer and ID
-      $strnumber = htmlspecialchars($_POST['input1']);
-      $number = (int)$strnumber;
-      echo "<h5 id='centerlinemessage'>";
-      echo "The comment has been deleted.";
-      echo "</h5>";
-      echo "<br>";
-      $deletecurrenttags = exec_sql_query($db, "DELETE FROM Post_Comments  WHERE  ID1 = $blog_id AND ID2=$number")->fetchAll(PDO::FETCH_ASSOC);
-    }
-  }
 }
 
 
@@ -117,7 +78,7 @@ $verify1 = login();
       "<form id ='contact' action='' method='post'>
       <input type='text' placeholder ='Name' name='Name' required>
       <textarea ='text' placeholder ='Text' name='Text'required></textarea>
-      <input type='submit' name='add_tag' value='Add Tag' />
+      <input type='submit' name='add_tag' value='Add Comment' />
       </form>";
 }
       //Adding of new comment from POST
@@ -167,10 +128,51 @@ $verify1 = login();
       }
     }
 
+    //delete comment
+    echo "<br>";
+    echo "<hr>";
+    if(isset($_POST['delete'])){
+    }else{
+    $verify1 = login();
+        if ($verify1 != NULL){
+      echo "<br>";
+      echo "<h2 id = 'centerline'>"."Moderator: Delete Comment"."<h2>";
+      echo "<form id ='contact' method='post'>
+      <select  id ='selectdrop' name='input1'>";
+      foreach($comments as $comm){
+        $weightclass= $comm["ID2"];
+        $signals = exec_sql_query($db, "SELECT * FROM Comments WHERE ID2=$weightclass")->fetchAll(PDO::FETCH_ASSOC);
+        foreach($signals as $signal){
+          echo $signal["ID2"];
+          echo "<br>";
+          echo $signal["User"];
+          echo "<br>";
+          echo "<option value=" .$signal['ID2']. ">". "(". $signal['User']. ")". " at: ".$signal[Time]. "</option>";
+        }
+      }
+        echo "</select>";
+        echo "<input type='submit' name='Submit' value='Delete'>";
+        echo "</form>";
+
+        if(isset($_POST['input1'])) {
+          //convert input into integer and ID
+          $strnumber = htmlspecialchars($_POST['input1']);
+          $number = (int)$strnumber;
+          echo "<h5 id='centerlinemessage'>";
+          echo "The comment has been deleted.";
+          echo "</h5>";
+          echo "<br>";
+          $deletecurrenttags = exec_sql_query($db, "DELETE FROM Post_Comments  WHERE  ID1 = $blog_id AND ID2=$number")->fetchAll(PDO::FETCH_ASSOC);
+        }
+      }
+    }
+
+
+
       if(isset($_POST['delete'])){
 }else{
   echo "<br>";
-  echo "<h2 id = 'centerline'>"."Delete Post:"."</h2>";
+  echo "<h2 id = 'centerline'>"."Moderator: Delete Post"."</h2>";
 }
   $verify = login();
   foreach($records as $record){
@@ -178,7 +180,7 @@ $verify1 = login();
       if(isset($_POST['delete'])){
       }else{
       echo
-      "<form action='' method='post'>
+      "<form id = 'contact1' action='' method='post'>
       <input type='submit' name='delete' value='Delete' />
       </form>";
     }
@@ -197,6 +199,7 @@ $verify1 = login();
       echo "<h4 id='centerlinemessage'>"."Must be the admin to delete this post."."</h4>";
     }
   }
+
 
 
 

@@ -55,7 +55,7 @@ echo '<div id = "contact1">';
   log_out();
   if (isset($_SESSION)) {
     echo '<br>';
-    echo '<p class = "notloggedin" >You logged out successfully.</p>';
+    echo '<p id = "centerlinemessage" >You logged out successfully.</p>';
   }
 }
 echo '</div>';

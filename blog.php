@@ -54,7 +54,10 @@ $db=open_or_init_sqlite_db('login.sqlite', "init/init.sql");
         ':Date' => $Date1,
       );
       $addition2 = exec_sql_query($db, $sql2, $params2);
+      echo "<h5 id='centerlinemessage'>";
       echo "Post Added!";
+      echo "</h5>";
+
       }
   }else{
   }
@@ -97,11 +100,11 @@ if(isset($_POST['input'])) {
   foreach($mrecords as $record){
     echo "<h2>" . $record["Title"] . "</h2>";
     echo "<h5>" . $record["Date"] . " | Posted by " .$record["Name"]. " | ". "<a href = \"" . "clickedblog.php?id=" . $record["ID1"] . "\"/>" .  "Comments" . "</a>"."</h5>";
-    echo "<p>" .$record["Text"]. "</p>";
+    echo "<p>" .nl2br($record["Text"]). "</p>";
     echo "<br>";
   }
   echo "<h2 id = 'centerlinemessage'>";
-  echo "Press Blog to get to all posts";
+  echo "Press Blog to get back to all posts";
   echo "</h2>";
 
 
@@ -116,8 +119,8 @@ if(isset($_POST['input'])) {
   $recordsi = array_reverse($records);
   foreach($recordsi as $record){
     echo "<h2>" . $record["Title"] . "</h2>";
-    echo "<h5>" . $record["Date"] . " | Posted by " .$record["Name"]. " | ". "<a href = \"" . "clickedblog.php?id=" . $record["ID1"] . "\"/>" .  "Comments" . "</a>"."</h5>";
-    echo "<p>" .$record["Text"]. "</p>";
+    echo "<h3>" . $record["Date"] . " | Posted by " .$record["Name"]. " | ". "<a href = \"" . "clickedblog.php?id=" . $record["ID1"] . "\"/>" .  "Comments" . "</a>"."</h3>";
+    echo "<p>" .nl2br($record["Text"]). "</p>";
   }
   echo '</div>';
 

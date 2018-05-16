@@ -23,7 +23,7 @@ function push_message($message) {
 function print_out() {
   global $messages;
   foreach ($messages as $message) {
-    echo '<p class= "notloggedin">' . htmlspecialchars($message) . "</p>\n";
+    echo '<p id= "centerlinemessage">' . htmlspecialchars($message) . "</p>\n";
   }
 }
 
