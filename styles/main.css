@@ -427,6 +427,11 @@ p{
     height:350px;
     border: 1px solid #ccc;
 }
+.desc{
+  font-size:4px;
+  float: inherit;
+
+}
 
 .gallery img {
     width: 490px;
@@ -434,4 +439,12 @@ p{
 }
 td a {
 display:block; line-height:45px;
+}
+h9{
+  font-size: 9px;
+  color:#ccc;
+  font-style: italic;
+  padding-bottom: 10px;
+  margin-left: 3em;
+
 }
