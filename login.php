@@ -42,10 +42,10 @@ include('includes/header.php');
 
 <?php
 echo '<hr>';
-echo '<h2 id = centerline>';
+echo '<h2 class = centerline>';
 echo 'Log Out';
 echo '</h2>';
-echo '<div id = "contact1">';
+echo '<div class = "contact1">';
       echo
       "<form action='' method='post'>
       <input type='submit' name='delete1' value='Log Out' />
@@ -55,7 +55,7 @@ echo '<div id = "contact1">';
   log_out();
   if (isset($_SESSION)) {
     echo '<br>';
-    echo '<p id = "centerlinemessage" >You logged out successfully.</p>';
+    echo '<p class = "centerlinemessage" >You logged out successfully.</p>';
   }
 }
 echo '</div>';
