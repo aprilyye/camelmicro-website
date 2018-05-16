@@ -28,8 +28,8 @@ INSERT INTO applications (name,image) VALUES ('Industrial','i2.png');
 INSERT INTO applications (name,image) VALUES ('Consumer','c1.png');
 INSERT INTO applications (name,image) VALUES ('Consumer','c2.png');
 INSERT INTO applications (name,image) VALUES ('Medical','m1.png');
-INSERT INTO applications (name,image) VALUES ('Motor Control','mc1.jpg');
-INSERT INTO applications (name,image) VALUES ('Motor Control','mc2.jpg');
+INSERT INTO applications (name,image) VALUES ('Motor','mc1.jpg');
+INSERT INTO applications (name,image) VALUES ('Motor','mc2.jpg');
 
 CREATE TABLE blog (
 	ID1	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,

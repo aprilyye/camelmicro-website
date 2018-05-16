@@ -3,7 +3,7 @@
 <?php
 include('includes/init.php');
 $current_page_id = 'diagram';
-include('includes/header.php');
+
 if (isset($_GET['id'])) {
 $ref_id = $_GET['id'];
 }
@@ -21,26 +21,23 @@ $records = exec_sql_query($db, "SELECT image FROM applications WHERE name=\"".$r
   <link rel='stylesheet' href='styles/main.css'/>
   <title>Diagrams</title>
 </head>
-
 <body>
+<?php
+include('includes/header.php');
+ ?>
+
   <div>
     <h1>Diagrams</h1>
-  <h2> Use these diagrams to help with your application: </h1>
+  <h2> Use these diagrams to help with your application: </h2>
+
     <?php
     $counter=0;
     foreach($records as $record){
-      if($counter%3==0){
-        echo"<tr>";
-      }
-      echo "<div class=\"gallery\"><img class=\"diagrams\" src=\"" . UPLOADS_PATH . $record["image"]."\"".">" . "</div>";
-      if ($counter%3==2){
-        echo "</tr>";
-      }
-      $counter++;
+      echo "<img class=\"gallery\" src=\"" . UPLOADS_PATH . $record["image"]."\""." alt=\"".$record["image"]."\">";
     }
-     ?>
+    ?>
 
-</table>
+
 </div>
 </body>
 </html>
