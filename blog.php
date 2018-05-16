@@ -77,14 +77,14 @@ echo "<h2 class = 'centerline'>" . "Archive by Month" . "</h2>";
 echo "<form id ='contact' method='post'>
 <select class ='selectdrop' name='input'>";
 foreach($records as $asd){
-  echo "<br>";
-  echo "<option value=\"" . htmlentities($asd['Date']) . "\">" . strval($asd['Date']) . "</option>" . "<br />";
+  // echo "<br>";
+  echo "<option value=\"" . htmlentities($asd['Date']) . "\">" . strval($asd['Date']) . "</option>" ;
 }
 echo "</select>";
-echo "<br>";
+// echo "<br>";
 echo "<input type='submit'  name='Submit' value='Search'>";
 echo "</form>";
-echo "<br>";
+// echo "<br>";
 
 
 
@@ -99,7 +99,7 @@ if(isset($_POST['input'])) {
     echo "<h2>" . $record["Title"] . "</h2>";
     echo "<h3>" . $record["Date"] . " | Posted by " .$record["Name"]. " | ". "<a href = \"" . "clickedblog.php?id=" . $record["ID1"] . "\"/>" .  "Comments" . "</a>"."</h3>";
     echo "<p>" .nl2br($record["Text"]). "</p>";
-    echo "<br>";
+    // echo "<br>";
   }
   echo "<h2 class = 'centerlinemessage'>";
   echo "Press Blog to get back to all posts";
@@ -117,7 +117,7 @@ if(isset($_POST['input'])) {
   $recordsi = array_reverse($records);
   foreach($recordsi as $record){
     echo "<h2>" . $record["Title"] . "</h2>";
-    echo "<h3>" . $record["Date"] . " | Posted by " .$record["Name"]. " | ". "<a href = \"" . "clickedblog.php?id=" . $record["ID1"] . "\"/>" .  "Comments" . "</a>"."</h3>";
+    echo "<h3>" . $record["Date"] . " | Posted by " .$record["Name"]. " | ". "<a href = \"" . "clickedblog.php?id=" . $record["ID1"] . "\">" .  "Comments" . "</a>"."</h3>";
     echo "<p>" .nl2br($record["Text"]). "</p>";
   }
   echo '</div>';
