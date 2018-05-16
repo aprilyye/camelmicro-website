@@ -155,14 +155,14 @@ textarea {
   text-align: center;
 }
 
-#centerline {
+.centerline {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   text-decoration: underline;
 }
 
-#centerlinemessage {
+.centerlinemessage {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -170,7 +170,7 @@ textarea {
   color: red;
 }
 
-#contact1{
+.contact1{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -178,7 +178,7 @@ textarea {
 }
 
 
-#selectdrop {
+.selectdrop {
   width: 60%;
   font-size: 24px;
   text-align: center;
@@ -186,7 +186,7 @@ textarea {
 }
 
 
-#datepush {
+.datepush {
   margin-bottom: 200;
 
 }

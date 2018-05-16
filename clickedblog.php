@@ -73,7 +73,7 @@ foreach($comments as $comment){
       if(isset($_POST['delete'])){
 }else{
       echo "<br>";
-      echo "<h2 id = 'centerline'>"."Add Comment:"."</h2>";
+      echo "<h2 class = 'centerline'>"."Add Comment:"."</h2>";
       echo
       "<form id ='contact' action='' method='post'>
       <input type='text' placeholder ='Name' name='Name' required>
@@ -120,7 +120,7 @@ foreach($comments as $comment){
             ':ID2' => $grabID2,
           );
           $addition1 = exec_sql_query($db, $sql1, $params1);
-          echo "<h5 id='centerlinemessage'>";
+          echo "<h5 class='centerlinemessage'>";
           echo "Comment has been added";
           echo "</h5>";
 
@@ -136,9 +136,9 @@ foreach($comments as $comment){
     $verify1 = login();
         if ($verify1 != NULL){
       echo "<br>";
-      echo "<h2 id = 'centerline'>"."Moderator: Delete Comment"."<h2>";
+      echo "<h2 class = 'centerline'>"."Moderator: Delete Comment"."<h2>";
       echo "<form id ='contact' method='post'>
-      <select  id ='selectdrop' name='input1'>";
+      <select  class ='selectdrop' name='input1'>";
       foreach($comments as $comm){
         $weightclass= $comm["ID2"];
         $signals = exec_sql_query($db, "SELECT * FROM Comments WHERE ID2=$weightclass")->fetchAll(PDO::FETCH_ASSOC);
@@ -158,7 +158,7 @@ foreach($comments as $comment){
           //convert input into integer and ID
           $strnumber = htmlspecialchars($_POST['input1']);
           $number = (int)$strnumber;
-          echo "<h5 id='centerlinemessage'>";
+          echo "<h5 class='centerlinemessage'>";
           echo "The comment has been deleted.";
           echo "</h5>";
           echo "<br>";
@@ -172,7 +172,7 @@ foreach($comments as $comment){
       if(isset($_POST['delete'])){
 }else{
   echo "<br>";
-  echo "<h2 id = 'centerline'>"."Moderator: Delete Post"."</h2>";
+  echo "<h2 class = 'centerline'>"."Moderator: Delete Post"."</h2>";
 }
   $verify = login();
   foreach($records as $record){
@@ -180,14 +180,14 @@ foreach($comments as $comment){
       if(isset($_POST['delete'])){
       }else{
       echo
-      "<form id = 'contact1' action='' method='post'>
+      "<form class = 'contact1' action='' method='post'>
       <input type='submit' name='delete' value='Delete' />
       </form>";
     }
       //if delete pressed
       if(isset($_POST['delete']))
       {
-        echo "<p id='centerlinemessage'>"."Your post has been deleted."."</p>";
+        echo "<p class='centerlinemessage'>"."Your post has been deleted."."</p>";
         //delete from Photo table
         $deletions = exec_sql_query($db, "DELETE FROM blog WHERE ID1=$blog_id")->fetchAll(PDO::FETCH_ASSOC);
         //clean up Image_tags table
@@ -196,7 +196,7 @@ foreach($comments as $comment){
       }
 
     }else{
-      echo "<h4 id='centerlinemessage'>"."Must be the admin to delete this post."."</h4>";
+      echo "<h4 class='centerlinemessage'>"."Must be the admin to delete this post."."</h4>";
     }
   }
 

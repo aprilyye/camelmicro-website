@@ -53,7 +53,7 @@ $db=open_or_init_sqlite_db('login.sqlite', "init/init.sql");
         ':Date' => $Date1,
       );
       $addition2 = exec_sql_query($db, $sql2, $params2);
-      echo "<h5 id='centerlinemessage'>";
+      echo "<h5 class='centerlinemessage'>";
       echo "Post Added!";
       echo "</h5></div>";
 
@@ -73,9 +73,9 @@ $db=open_or_init_sqlite_db('login.sqlite', "init/init.sql");
 $records = exec_sql_query($db, "SELECT DISTINCT blog.Date FROM blog;
 ")->fetchAll(PDO::FETCH_ASSOC);
 //drop down menu
-echo "<h2 id = 'centerline'>" . "Archive by Month" . "</h2>";
+echo "<h2 class = 'centerline'>" . "Archive by Month" . "</h2>";
 echo "<form id ='contact' method='post'>
-<select id ='selectdrop' name='input'>";
+<select class ='selectdrop' name='input'>";
 foreach($records as $asd){
   // echo "<br>";
   echo "<option value=\"" . htmlentities($asd['Date']) . "\">" . strval($asd['Date']) . "</option>" ;
@@ -101,7 +101,7 @@ if(isset($_POST['input'])) {
     echo "<p>" .nl2br($record["Text"]). "</p>";
     // echo "<br>";
   }
-  echo "<h2 id = 'centerlinemessage'>";
+  echo "<h2 class = 'centerlinemessage'>";
   echo "Press Blog to get back to all posts";
   echo "</h2>";
 
@@ -112,8 +112,8 @@ if(isset($_POST['input'])) {
   $records = exec_sql_query($db, "SELECT * FROM blog")->fetchAll(PDO::FETCH_ASSOC);
 
   echo "<hr>";
-  echo "<h2 id = 'centerline'>" . "All Posts" . "</h2>";
-  echo "<div id  ='datepush'>";
+  echo "<h2 class = 'centerline'>" . "All Posts" . "</h2>";
+  echo "<div class  ='datepush'>";
   $recordsi = array_reverse($records);
   foreach($recordsi as $record){
     echo "<h2>" . $record["Title"] . "</h2>";
