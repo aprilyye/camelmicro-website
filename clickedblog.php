@@ -13,7 +13,6 @@ $current_page_id=NULL;
 
   <title> Blog Post </title>
 </head>
-<html>
 <body>
   <?php
 include "includes/header.php";
