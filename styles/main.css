@@ -415,7 +415,7 @@ p{
   color: black;
 }
 
-div.gallery {
+.gallery {
     margin: 50px;
     float: left;
     width: 510px;
@@ -423,7 +423,7 @@ div.gallery {
     border: 1px solid #ccc;
 }
 
-div.gallery img {
+.gallery img {
     width: 490px;
     height: 350px;
 }
