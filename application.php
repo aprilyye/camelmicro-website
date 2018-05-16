@@ -7,7 +7,7 @@ $current_page_id = 'application';
 $db=open_or_init_sqlite_db('applications.sqlite', "init/init.sql");
 $records = exec_sql_query($db, "SELECT DISTINCT name FROM applications")->fetchAll(PDO::FETCH_ASSOC);
 ?>
-
+<head>
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />

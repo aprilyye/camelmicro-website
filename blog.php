@@ -4,8 +4,6 @@
 <?php
 include('includes/init.php');
 $current_page_id = 'blog';
-include('includes/header.php');
-
 $db=open_or_init_sqlite_db('login.sqlite', "init/init.sql");
 ?>
 
@@ -18,6 +16,7 @@ $db=open_or_init_sqlite_db('login.sqlite', "init/init.sql");
 
 <body>
   <?php
+  include('includes/header.php');
   //initialize admin data
   $access = exec_sql_query($db, "SELECT * FROM Accounts WHERE session='1'")->fetchAll(PDO::FETCH_ASSOC);
   ?>
@@ -56,7 +55,7 @@ $db=open_or_init_sqlite_db('login.sqlite', "init/init.sql");
       $addition2 = exec_sql_query($db, $sql2, $params2);
       echo "<h5 id='centerlinemessage'>";
       echo "Post Added!";
-      echo "</h5>";
+      echo "</h5></div>";
 
       }
   }else{
@@ -67,7 +66,6 @@ $db=open_or_init_sqlite_db('login.sqlite', "init/init.sql");
   $records = exec_sql_query($db, "SELECT * FROM blog")->fetchAll(PDO::FETCH_ASSOC);
 
   ?>
-</div>
 
 <?php
 
