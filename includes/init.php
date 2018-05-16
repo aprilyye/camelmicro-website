@@ -1,7 +1,5 @@
 <?php
 session_start();
-
-
 $pages = array(
   "index"=>"Home",
   "product"=>"Product",
