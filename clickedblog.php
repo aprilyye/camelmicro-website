@@ -136,7 +136,7 @@ foreach($comments as $comment){
     $verify1 = login();
         if ($verify1 != NULL){
       echo "<br>";
-      echo "<h2 class = 'centerline'>"."Moderator: Delete Comment"."<h2>";
+      echo "<h2 class = 'centerline'>"."Moderator: Delete Comment"."</h2>";
       echo "<form id ='contact' method='post'>
       <select  class ='selectdrop' name='input1'>";
       foreach($comments as $comm){
