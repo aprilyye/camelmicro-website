@@ -48,7 +48,7 @@ echo 'Log Out';
 echo '</h2>';
 echo '<div class = "contact1">';
       echo
-      "<form action='' method='post'>
+      "<form method='post'>
       <input type='submit' name='delete1' value='Log Out' />
       </form>";
       if(isset($_POST['delete1']))
