@@ -50,7 +50,6 @@ echo '<div class = "contact1">';
 {
   log_out();
   if (isset($_SESSION)) {
-    echo '<br>';
     echo '<p class = "centerlinemessage" >You logged out successfully.</p>';
   }
 }
