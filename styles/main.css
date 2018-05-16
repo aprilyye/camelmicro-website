@@ -417,14 +417,15 @@ p{
 
 div.gallery {
     margin: 50px;
-    border: 1px solid #ccc;
     float: left;
-    width: 800px;
+    width: 510px;
+    height:350px;
+    border: 1px solid #ccc;
 }
 
 div.gallery img {
-    width: 800px;
-    height: 500px;
+    width: 490px;
+    height: 350px;
 }
 td a {
 display:block; line-height:45px;
