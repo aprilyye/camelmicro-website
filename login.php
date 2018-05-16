@@ -29,7 +29,7 @@ $current_page_id = 'login';
         print_out();
         //FORM
         ?>
-        <form action="login.php" method="post">
+        <form class = 'centerline' action="login.php" method="post">
               <input type="text" name="username" placeholder="Username" required/>
               <input type="password" name="password" placeholder="Password" required/>
               <button name="login" type="submit">Log In</button>

@@ -55,6 +55,10 @@ CREATE TABLE Comments (
 );
 
 INSERT INTO Comments (ID2, User, Time, Comment) VALUES (1, 'Mark', 'April 15th, 2018 03:30 pm', 'CamelMicro rocks!');
+INSERT INTO Comments (ID2, User, Time, Comment) VALUES (2, 'David', 'April 15th, 2018 03:39 pm', 'CamelMicro is amazing!');
+INSERT INTO Comments (ID2, User, Time, Comment) VALUES (3, 'Ashley', 'April 19th, 2018 05:19 pm', 'I like this site!');
+INSERT INTO Comments (ID2, User, Time, Comment) VALUES (4, 'Paul', 'May 2nd, 2018 11:19 pm', 'So sleepy...');
+
 
 CREATE TABLE Post_Comments (
 	count	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
@@ -63,3 +67,6 @@ CREATE TABLE Post_Comments (
 );
 
 INSERT INTO Post_Comments (count, ID1, ID2) VALUES (1, 1, 1);
+INSERT INTO Post_Comments (count, ID1, ID2) VALUES (2, 1, 2);
+INSERT INTO Post_Comments (count, ID1, ID2) VALUES (3, 2, 3);
+INSERT INTO Post_Comments (count, ID1, ID2) VALUES (4, 3, 4);

@@ -74,7 +74,7 @@ $records = exec_sql_query($db, "SELECT DISTINCT blog.Date FROM blog;
 ")->fetchAll(PDO::FETCH_ASSOC);
 //drop down menu
 echo "<h2 class = 'centerline'>" . "Archive by Month" . "</h2>";
-echo "<form id ='contact' method='post'>
+echo "<form class ='contact' method='post'>
 <select class ='selectdrop' name='input'>";
 foreach($records as $asd){
   // echo "<br>";

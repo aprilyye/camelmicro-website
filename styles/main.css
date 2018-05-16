@@ -155,6 +155,11 @@ textarea {
   text-align: center;
 }
 
+
+.title{
+  padding-top: 100px;
+}
+
 .centerline {
   margin-left: auto;
   margin-right: auto;
@@ -409,6 +414,7 @@ p{
   padding-bottom: 0;
   padding-left: 40;
 }
+
 
 .divide hr {
   color: black;

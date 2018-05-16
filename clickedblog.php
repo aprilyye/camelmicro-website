@@ -30,7 +30,7 @@ $comments = exec_sql_query($db, "SELECT * FROM Post_Comments WHERE ID1=$blog_id"
 if(isset($_POST['delete'])){
 }else{
 foreach($records as $record){
-  echo "<h2>" . $record["Title"] . "</h2>";
+  echo "<h2 class='title'>" . $record["Title"] . "</h2>";
   echo "<h3>" . "Posted by " .$record["Name"]. " on ". $record["Date"] ."</h3>";
   echo "<p>" .nl2br($record["Text"]). "</p>";
   echo "<hr>";
