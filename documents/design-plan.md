@@ -180,6 +180,14 @@ We will be implementing a top-level header/init approach in navigation as well a
 ![](contact_wireframe.jpg)
 
 
+
+![](pjupdatedwireframe1.jpg)
+![](pjupdatedwireframe2.jpg)
+![](pjupdatedwireframe3.jpg)
+![](pjupdatedwireframe4.jpg)
+
+
+
 ## Milestone 2, Part III: Evaluate your Design
 
 [Use the GenderMag method to evaluate your wireframes.]
@@ -598,7 +606,7 @@ Similar to accessing other pages in this walkthrough, we have updated the design
 2. Fill out Required Queries
 
 **Action 2 : Fill out each query on the form**
-This step for sure warrants a need to make sure we relate to Abby's high risk aversion and process oriented learning, given that wrongly inputted  or incomplete queries will ruin Abby's goal in submitting her information. We kept the top-down approach before Abby hits submit to make sure that Abby knows what to do before hitting submit, but we also added new filtered queries to make sure that now query goes incomplete or incorrect. For instance, if Abby tries to leave her name out, she won't be able to submit as it is prompted by her code to finish the queries before. Abby also cannot use an invalid email or an invalid name ( a name with numbers). Messages will show up asking her to try again. 
+This step for sure warrants a need to make sure we relate to Abby's high risk aversion and process oriented learning, given that wrongly inputted  or incomplete queries will ruin Abby's goal in submitting her information. We kept the top-down approach before Abby hits submit to make sure that Abby knows what to do before hitting submit, but we also added new filtered queries to make sure that now query goes incomplete or incorrect. For instance, if Abby tries to leave her name out, she won't be able to submit as it is prompted by her code to finish the queries before. Abby also cannot use an invalid email or an invalid name ( a name with numbers). Messages will show up asking her to try again.
 
 3. Submit form
 
