@@ -73,9 +73,9 @@ foreach($comments as $comment){
       echo "<br>";
       echo "<h2 class = 'centerline'>"."Add Comment:"."</h2>";
       echo
-      "<form id ='contact' action='' method='post'>
+      "<form id ='contact' method='post'>
       <input type='text' placeholder ='Name' name='Name' required>
-      <textarea ='text' placeholder ='Text' name='Text'required></textarea>
+      <textarea placeholder ='Text' name='Text' required></textarea>
       <input type='submit' name='add_tag' value='Add Comment' />
       </form>";
 }
@@ -178,7 +178,7 @@ foreach($comments as $comment){
       if(isset($_POST['delete'])){
       }else{
       echo
-      "<form class = 'contact1' action='' method='post'>
+      "<form class = 'contact1' method='post'>
       <input type='submit' name='delete' value='Delete' />
       </form>";
     }
