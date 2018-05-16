@@ -1,6 +1,5 @@
 <?php include('includes/init.php');
 $current_page_id=NULL;
-include "includes/header.php";
 ?>
 
 <!DOCTYPE html>
@@ -14,10 +13,9 @@ include "includes/header.php";
 
   <title> Blog Post </title>
 </head>
-<html>
 <body>
   <?php
-
+include "includes/header.php";
   /** = Get ID = **/
 if(isset($_GET['id'])){
   $blog_id = (int)$_GET['id'];
