@@ -99,7 +99,7 @@ if(isset($_POST['input'])) {
   echo '<div id=contact>';
   foreach($mrecords as $record){
     echo "<h2>" . $record["Title"] . "</h2>";
-    echo "<h5>" . $record["Date"] . " | Posted by " .$record["Name"]. " | ". "<a href = \"" . "clickedblog.php?id=" . $record["ID1"] . "\"/>" .  "Comments" . "</a>"."</h5>";
+    echo "<h3>" . $record["Date"] . " | Posted by " .$record["Name"]. " | ". "<a href = \"" . "clickedblog.php?id=" . $record["ID1"] . "\"/>" .  "Comments" . "</a>"."</h3>";
     echo "<p>" .nl2br($record["Text"]). "</p>";
     echo "<br>";
   }
