@@ -21,7 +21,7 @@ function push_message($message) {
 function print_out() {
   global $messages;
   foreach ($messages as $message) {
-    echo '<p id= "centerlinemessage">' . htmlspecialchars($message) . "</p>\n";
+    echo '<p class= "centerlinemessage">' . htmlspecialchars($message) . "</p>\n";
   }
 }
 
