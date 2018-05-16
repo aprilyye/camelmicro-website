@@ -46,30 +46,30 @@ function mail_out(){
 <?php
 include("includes/header.php");
  ?>
-<div id = "contact">
-  <h1> Contact Us </h1>
-<?php
-if (isset($_POST['send_message'])){
-  mail_out();
-  foreach ($contact_messages as $contact_message){
-    echo "<p>" . $contact_message . "</p>";
-  }
-} else{
- ?>
- <p> Send us a message with your questions and concerns! Please allow 3-5 business days for a reply. </p>
-<div class = "contact">
-<form name='contact_form' method = "POST" action= "contact.php">
-  <input type="text" name ="visitor_name" placeholder="Your name" required>
-  <input type="email" name="visitor_email" placeholder="Your email" required>
-  <input type= "text" name="email_subject" placeholder="Your subject" required>
-  <textarea name = "message" placeholder ='Email Content'></textarea>
-  <input type="submit" name="send_message" value="Send Message">
-</form>
-</div>
+  <div id = "contact">
+    <h1> Contact Us </h1>
+    <?php
+    if (isset($_POST['send_message'])){
+      mail_out();
+      foreach ($contact_messages as $contact_message){
+        echo "<p>" . $contact_message . "</p>";
+      }
+    } else{
+    ?>
+    <p> Send us a message with your questions and concerns! Please allow 3-5 business days for a reply. </p>
+    <div class = "contact">
+      <form name='contact_form' method = "POST" action= "contact.php">
+        <input type="text" name ="visitor_name" placeholder="Your name" required>
+        <input type="email" name="visitor_email" placeholder="Your email" required>
+        <input type= "text" name="email_subject" placeholder="Your subject" required>
+        <textarea name = "message" placeholder ='Email Content'></textarea>
+        <input type="submit" name="send_message" value="Send Message">
+      </form>
+    </div>
 
-<?php
-}
- ?>
+  <?php
+  }
+  ?>
 </div>
 </body>
 </html>
