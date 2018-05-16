@@ -1,7 +1,6 @@
 <?php
 include('includes/init.php');
 $current_page_id = 'login';
-include('includes/header.php');
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +18,9 @@ include('includes/header.php');
 	</head>
 
     <body>
-
+			<?php
+			include('includes/header.php');
+			 ?>
       <div id="content-wrap">
         <h1>Log In/Log Out</h1>
 				<div id = "contact">
