@@ -29,17 +29,16 @@ include('includes/header.php');
   <div>
     <h1>Diagrams</h1>
     <h9> All photos from www.onsemi.com</h9>
-  <h2> Use these diagrams to help with your application: </h2>
+    <h2> Use these diagrams to help with your application: </h2>
 
 
-    <?php
-    $counter=0;
-    foreach($records as $record){
-      echo "<img class=\"gallery\" src=\"" . UPLOADS_PATH . $record["image"]."\""." alt=\"".$record["image"]."\">";
+      <?php
+      $counter=0;
+      foreach($records as $record){
+        echo "<img class=\"gallery\" src=\"" . UPLOADS_PATH . $record["image"]."\""." alt=\"".$record["image"]."\">";
 
-    }
-    ?>
-
+      }
+      ?>
 
 </div>
 </body>
