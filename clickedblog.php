@@ -34,7 +34,6 @@ foreach($records as $record){
   echo "<h3>" . "Posted by " .$record["Name"]. " on ". $record["Date"] ."</h3>";
   echo "<p>" .nl2br($record["Text"]). "</p>";
   echo "<hr>";
-  echo"<br>";
 }
 }
 
@@ -59,7 +58,6 @@ foreach($comments as $comment){
     echo "</p>";
     $dog = $signal["ID2"];
     //delete comment
-    echo "<br>";
     echo '</div>';
   }
 }
@@ -70,10 +68,9 @@ foreach($comments as $comment){
       //Tag form
       if(isset($_POST['delete'])){
 }else{
-      echo "<br>";
       echo "<h2 class = 'centerline'>"."Add Comment:"."</h2>";
       echo
-      "<form id ='contact' method='post'>
+      "<form class ='contact' method='post'>
       <input type='text' placeholder ='Name' name='Name' required>
       <textarea placeholder ='Text' name='Text' required></textarea>
       <input type='submit' name='add_tag' value='Add Comment' />
@@ -103,7 +100,6 @@ foreach($comments as $comment){
             ':Time' => $Date,
           );
           $addition = exec_sql_query($db, $sql, $params);
-          echo "<br>";
           $strgrabID3 = exec_sql_query($db, "SELECT ID2 FROM Comments WHERE Comment='".$newcommentadd."'")->fetchAll(PDO::FETCH_ASSOC);
 
           //grab ID
@@ -127,24 +123,20 @@ foreach($comments as $comment){
     }
 
     //delete comment
-    echo "<br>";
     echo "<hr>";
     if(isset($_POST['delete'])){
     }else{
     $verify1 = login();
         if ($verify1 != NULL){
-      echo "<br>";
       echo "<h2 class = 'centerline'>"."Moderator: Delete Comment"."</h2>";
-      echo "<form id ='contact' method='post'>
+      echo "<form class ='contact' method='post'>
       <select  class ='selectdrop' name='input1'>";
       foreach($comments as $comm){
         $weightclass= $comm["ID2"];
         $signals = exec_sql_query($db, "SELECT * FROM Comments WHERE ID2=$weightclass")->fetchAll(PDO::FETCH_ASSOC);
         foreach($signals as $signal){
           echo $signal["ID2"];
-          echo "<br>";
           echo $signal["User"];
-          echo "<br>";
           echo "<option value=" .$signal['ID2']. ">". "(". $signal['User']. ")". " at: ".$signal[Time]. "</option>";
         }
       }
@@ -159,7 +151,6 @@ foreach($comments as $comment){
           echo "<h5 class='centerlinemessage'>";
           echo "The comment has been deleted.";
           echo "</h5>";
-          echo "<br>";
           $deletecurrenttags = exec_sql_query($db, "DELETE FROM Post_Comments  WHERE  ID1 = $blog_id AND ID2=$number")->fetchAll(PDO::FETCH_ASSOC);
         }
       }
@@ -169,7 +160,6 @@ foreach($comments as $comment){
 
       if(isset($_POST['delete'])){
 }else{
-  echo "<br>";
   echo "<h2 class = 'centerline'>"."Moderator: Delete Post"."</h2>";
 }
   $verify = login();

@@ -145,7 +145,7 @@ textarea {
     line-height: 30px;
 } */
 
-#contact,#entry {
+.contact,#entry {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
