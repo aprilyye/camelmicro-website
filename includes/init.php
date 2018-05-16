@@ -153,7 +153,6 @@ function log_out() {
     session_destroy();
     }
     //This is what is causing Array();
-    Print_r ($_SESSION);
 
 
 // filter input for user input for username
