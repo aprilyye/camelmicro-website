@@ -529,94 +529,94 @@ We made design changes according to peers' feedback:
 
 ## Milestone 5: Cognitive Walkthrough
 
-[Copy your tasks here from Milestone 2. Update them if you need to and then conduct another cognitive walkthrough.]
+We have updated the tasks at hand with the updated design. Given that these same tasks from the initial walkthrough are the most important for the user for the site, We have used the same tasks as allowed, but have updated the walkthrough to fit the new design.
 
-Task 1: Navigating and learning more about a certain application of CamelMicro products (ex. Military)
+For the most part, there have been significant changes made to task 1 and task 2 with the new design as a result of the changes needed by the client and peer feedback.
 
-1. Go to the Application Page
-2. Scroll down to see all the different application options
+Task 1: Navigating and learning more about a certain application of CamelMicro products (ex. Automotive)
+
+1. Hit  the Application Page on the header
+2. Scroll down to see all the different application options (5 options)
 3. Press on option "Automotive"
 
 Task 2: Navigating to a specific blog post from September 2017
 
 1. Go to the Blog Page
-2. Press on Archive (September 2017)
-3. Scroll down for the blog post from all posts in September 2017
+2. Use dropdown menu to select (September 2017) and submit
+3. Scroll down for the blog post from the September 2017 archive
 
 Task 3: Navigating And submitting information to the contact form.
 
-1. Go to the Contact Page
+1. Go to the Contact Page on the header
 2. Fill out required queries on form
 3. Submit form
 
-### Cognitive Walk-though Results
+**Task 1: Navigating and learning more about a certain application of CamelMicro products (ex. Automotive)**
 
-[Did you discover any issues with your design? What were they? How did you change your design to address the gender-inclusiveness bugs you discovered?]
+  1. Click the Application Page on the header
 
-[Your responses here should be very thorough and thoughtful.]
-#### Task 1 - Cognitive Walkthrough
-
-**Task 1: Navigating and learning more about CamelMicro products**
-
-  1. Go to the Application Page
-
-  **Action 1 : Click on Application Page**
-  At this step, Abby is expected to know what to do at this step because the task at hand is simple enough for Abby to execute given her low computer self-efficacy score, and she is then able to gather information comprehensively to achieve the task at hand. She is also making progress towards her goal in finding out different application options for CamelMicro's product because she now knows that she has hit the Application page.
+  **Action 1 : Click on Application on Header**
+  At this step, Abby should know what to do given that the header is the logical path for the user to know where the Application page is, and given her low computer self-efficacy score, Abby is able to gather information comprehensively to both achieve getting to Applications and making progress towards her goal to find the Automotive application of CamelMicro with the updates to the new design.
 
 
-  2. Scroll down to Applications
+  2. Scroll down to see all the different application options (5 options)
 
-  **Action 2 : Scroll down to see the different Application options**
-  At this step, we know that Abby tends to gather information comprehensively, meaning she tries to read a lot first before actually executing the task at hand. The way our wireframe is laid out allows this to be executed well, as the applications are listed in a simple, straight-forward table view as Abby scrolls before she finds the one she wants. She also knows that she is making progress towards her goal because she is scrolling down all possible applications (thereby minimizing risk) before choosing an application (which will change color when mouse is hovered over) via clicking.
+  **Action 2 : Scroll down to see the options**
+  At this step, given that Abby gathers information comprehensively, Abby will try to read the information on the page first before executing the task at hand. The way our new site is laid out is that this information comprehensive style is optimized to simplicity, meaning that Abby can find the specific option she wants as the applications are laid out in a straightforward table view that Abby scrolls through to find what she wants, and also there is now a hover page to emphasize the point of pre-selection that is important to Abby as a screening process. These are new updates with the design.
 
-  3. Press on Automotive
+  3. Press on option "Automotive"
 
-  **Action 3 : Click on the Automotive option to know more**
-  At this step, we know that Abby has high risk aversion, meaning she will not execute an action before she knows that she is certain the action she is doing will warrant the given result. At this stage of the action, she is now certain that clicking on the Automotive option will allow her to actively look into the Automotive applications of the CamelMicro product, successfully completing her goal.
-
-
-
-#### Task 2 - Cognitive Walkthrough
+  **Action 3 : Click on the Automotive option**
+  Finally at this step, given that throughout the process Abby is known for both her risk aversion and information comprehensive style, meaning that she needs full confidence in executing an action and needs to look at all information before choosing an action, Abby is still certain with her choice in clicking the Automotive option to learn more about the applications of the CamelMicro product. The new site design maximizes the user experience for Abby to drive a logic driven style.
 
 **Task 2: Navigating to a specific blog post from September 2017**
 
 1. Go to the Blog Page
 
 **Action 1 : Click on Blog Page**
-At this step, Abby is expected to know what to do at this step because the task at hand is simple enough for Abby to execute given her low computer self-efficacy score, and she is then able to gather information comprehensively to achieve the task at hand. She is also making progress towards her goal in finding the blog post from September 2017 because she now knows that she has hit the Blog page where she will be able to find the blog post from September 2017.
+This step is largely the same from the initial design, in that we want to make sure Abby knows that the blog page is the right page to click in order to find the archive. Given her self-efficacy score and information style, Abby is prompted by the header to click on Blogs in order to make progress towards her goal, and with the new sleek interface of the navigation bar, this step becomes more simple for Abby to execute in a reasonable manner.
 
 
-2. Press on Archive (September 2017)
+2. Use dropdown menu to select (September 2017) and Press Button
 
-**Action 2 : Scroll down to the Archive**
-At this step, we know that Abby tends to gather information comprehensively, meaning she tries to read a lot first before actually executing the task at hand. The way our wireframe is laid out allows this to be executed well, as the applications are listed down as Abby scrolls before she finds the one she wants. She also knows that she is making progress towards her goal because she is scrolling down all months/years (thereby minimizing risk) and finding the September 2017 link.
+**Action 2 + 3: Select from Drop-Down and Press Button**
+This step is largely different from the initial step given the feedback from the client and our peers. We originally had it so that the client would have to go down and click the actual Date to get to the page, but we felt that a select drop-down menu would be much easier for Abby to scroll through the dates in a more logic and responsive manner than before given her attributes. We have made significant changes to this by making sure the submit button and dropdown menu are closely linked together, and that once Abby actually hits the button for the September 2017 choice, the output gives to the server the information to lay out the information at hand that Abby needs to make progress towards her goal.
 
-**Action 3: Press on September 2017**
-At this step, we know that Abby is certain, based on her high risk aversion, that she will be able to find a post that is from September 2017, given the signal from the title of the section (Archive) and the actual month.
 
-3. Scroll down for the blog post from all posts in September 2017
+3. Scroll down for the blog post from the September 2017 archive
 
 **Action 4 : Scroll to find the post**
-At this step, given Abby's comprehensive information style, we know that Abby will want to first scroll down through all blog posts before actually finding the one she wants. Therefore, we simplified our wireframe to accommodate this step so that she can now find the blog post at hand. This also minimizes her risk at hand because she will know which blog post from September 2017 is, successfully accomplishing her goal.
+At this step, we have made some modifications to ensure that Abby knows she has gotten to the September 2017 archive. First, we made sure that at the top of the listing the date is outputted, meaning that Abby can see that she is at the September 2017 archive, relating to her risk aversion appetite. Finally, she is able to scroll down through the posts in order to successfully accomplish her goal.
 
-**Task 3: Navigating And submitting information to the contact form.**
+**Task 3: Navigating And Submitting information to the contact form**
 
-1. Go to the Contact Page
+1. Go to the Contact Page on the Header
 
 **Action 1 : Click on Contact Page**
-At this step, Abby should  know what to do because the task at hand is logic driven and simplistic for Abby to execute given her low computer self-efficacy score, and she is then able to gather information comprehensively to achieve the task at hand. She is also making progress towards her goal in finding the Contact page in order to submit her concerns to CamelMicro.
+Similar to accessing other pages in this walkthrough, we have updated the design to make sure that Abby knows what to do in terms of being able to make progress in submitting her information. We have made the navigation bar simplistic enough for Abby to execute given her low computer self-efficacy score and risk aversion, and how she is now even more able to gather information at hand to make progress towards her goal.
 
-
-2. Fill out required queries on form
+2. Fill out Required Queries
 
 **Action 2 : Fill out each query on the form**
-At this step, we know that Abby has high risk aversion and process oriented learning. This means that she wants to make sure that each step of the way, she is completing the right query and form before she submits anything. By emphasizing for the form a top-down approach before Abby ever hits submit, we ensure that Abby knows that she/he is required to fill out each query before moving on to the submission, also letting her know that she is reaching her goal.
+This step for sure warrants a need to make sure we relate to Abby's high risk aversion and process oriented learning, given that wrongly inputted  or incomplete queries will ruin Abby's goal in submitting her information. We kept the top-down approach before Abby hits submit to make sure that Abby knows what to do before hitting submit, but we also added new filtered queries to make sure that now query goes incomplete or incorrect. For instance, if Abby tries to leave her name out, she won't be able to submit as it is prompted by her code to finish the queries before.
 
 3. Submit form
 
-**Action 3 : Hit submit**
-We know that Abby gathers information comprehensively and is aversive to risk, so in finally filling out each query (with filtered input and escaped output), we know that Abby has successfully minimized her risk in making an error with the form submission and has gathered all the information on the site sufficiently to execute the goal at hand, which in this case reflects submission of the form and query to CamelMicro.
+**Action 3 : Click Submit**
+Given Abby's information comprehension style and high risk aversion, Abby at this step is fully confident that she has hit all the steps required to submit her concerns to CamelMicro, with the top-down approach and filtered input/escaped output to ensure that Abby's information gets across securely to the team. This execution is now sufficiently done.
 
+
+### Final Cognitive Walk-though Results
+
+[Did you discover any issues with your design? What were they? How did you change your design to address the gender-inclusiveness bugs you discovered?]
+
+Given new feedback from our client, peer feedback, and multiple discussions within our team, we did this new walkthrough to accommodate for any gender-inclusiveness and ability-related bugs related to the design of the CamelMicro site. The clientele base for CamelMicro is still known to be diverse given our talks with the client, so we continued to emphasize the importance of the GenderMag method to our site design to account for bias and lost revenue.
+
+We still used Abby, a key clientele user segment for Camel Micro and a good case for most users at the base level. We continued our approach in tackling the five problem-solving facets for software gender-inclusiveness. We continued to focus on motivations for using the site, information processing style, computer self-efficacy, attitudes towards risk, and learning style to address the site design.
+
+Our new site design pays important attention to high risk aversion, self-efficacy, and a comprehensive information style to tackle the important tasks outlined. We modified our blog page, navigation page, and deleted the search bar in order to make Task 2 much easier for Abby to execute, modified the table output on Applications to make it a more seamless and logic-driven experience, and modified the Contact form to emphasize high risk aversion to incomplete data being sent and continued the format of a top-down approach and secure output/input to relate to Abby's concerns. We revised these frameworks with each iteration in order to relate to the feedback given from our client and peers in order to really maximized this logic-driven and simple approach to relate to all users with this approach.
+
+Through these deliberations and with extensive feedback, in order final walkthrough we feel that we have minimized all gender and ability related bugs with the site design by relating to Abby's persona and listening to our peers. All facets of the site have been simplified to fit this base persona and minimize risk.
 
 ## Milestone 5: Final Notes to the Clients
 
@@ -626,7 +626,8 @@ For this course, we will be deploying via Heroku, but since Heroku does not save
 
 [Include any other information that your client needs to know about your final website design. For example, what client wants or needs were unable to be realized in your final product? Why were you unable to meet those wants/needs?]
 
-We don't have a search bar because we felt that it was not necessary design wise for the current plan, especially for our project persona Abby (for the most straight forward navigation for the website). CamelMicro also did not end up wanting a translation to Chinese version of the website, so that portion was not implemented.
+We don't have a search bar because we felt that it was not necessary design wise for the current plan, especially for our project persona Abby (for the most straight forward navigation for the website). We also felt that with the addition of the archive bar, which is where most of the search implementation would happen, this part was not necessary anymore. CamelMicro also did not end up wanting a translation to Chinese version of the website, so that portion was not implemented.
+
 
 ## Milestone 5: Final Notes to the Graders
 
