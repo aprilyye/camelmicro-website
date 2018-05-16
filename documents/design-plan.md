@@ -295,7 +295,7 @@ At this step, we know that Abby has high risk aversion and process oriented lear
 **Action 3 : Hit submit**
 We know that Abby gathers information comprehensively and is aversive to risk, so in finally filling out each query (with filtered input and escaped output), we know that Abby has successfully minimized her risk in making an error with the form submission and has gathered all the information on the site sufficiently to execute the goal at hand, which in this case reflects submission of the form and query to CamelMicro.
 
-### Cognitive Walk-though Results
+### Cognitive Walk-through Results
 
 [Did you discover any issues with your design? What were they? How did you change your design to address the gender-inclusiveness bugs you discovered?]
 
@@ -614,7 +614,7 @@ This step for sure warrants a need to make sure we relate to Abby's high risk av
 Given Abby's information comprehension style and high risk aversion, Abby at this step is fully confident that she has hit all the steps required to submit her concerns to CamelMicro, with the top-down approach and filtered input/escaped output to ensure that Abby's information gets across securely to the team. This execution is now sufficiently done.
 
 
-### Final Cognitive Walk-though Results
+### Final Cognitive Walk-through Results
 
 [Did you discover any issues with your design? What were they? How did you change your design to address the gender-inclusiveness bugs you discovered?]
 
