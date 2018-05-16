@@ -5,12 +5,12 @@ include('includes/init.php');
 $current_page_id = 'diagram';
 include('includes/header.php');
 if (isset($_GET['id'])) {
-$ref_id = (int)$_GET['id'];
+$ref_id = $_GET['id'];
 }
 const UPLOADS_PATH = "documents/diagram/";
 
 $db=open_or_init_sqlite_db('applications.sqlite', "init/init.sql");
-$records = exec_sql_query($db, "SELECT image FROM applications WHERE id=$ref_id")->fetchAll(PDO::FETCH_ASSOC);
+$records = exec_sql_query($db, "SELECT image FROM applications WHERE name=\"".$ref_id."\"")->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
 
@@ -24,12 +24,22 @@ $records = exec_sql_query($db, "SELECT image FROM applications WHERE id=$ref_id"
 
 <body>
   <div>
-  <h2> Use this diagram to help with your application: </h1>
-<?php
-foreach ($records as $record){
-  echo "<img class=\"diagrams\" src=\"" . UPLOADS_PATH . $record["image"]."\"".">";
-}
-?>
+    <h1>Diagrams</h1>
+  <h2> Use these diagrams to help with your application: </h1>
+    <?php
+    $counter=0;
+    foreach($records as $record){
+      if($counter%3==0){
+        echo"<tr>";
+      }
+      echo "<div class=\"gallery\"><img class=\"diagrams\" src=\"" . UPLOADS_PATH . $record["image"]."\"".">" . "</div>";
+      if ($counter%3==2){
+        echo "</tr>";
+      }
+      $counter++;
+    }
+     ?>
+
 </table>
 </div>
 </body>
