@@ -33,7 +33,7 @@ $db=open_or_init_sqlite_db('login.sqlite', "init/init.sql");
     echo 'Moderator: Add a Post' ;
     echo '</h2>';
     echo
-    "<div id='entry'><form action='' method='post'>
+    "<div id='entry'><form method='post'>
     <input type='text' placeholder ='Title' name='Title'>
     <textarea placeholder ='Text' name='Text'></textarea>
     <input type='submit' name='Post' value='Add Post' />
