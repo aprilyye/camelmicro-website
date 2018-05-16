@@ -30,14 +30,9 @@ $current_page_id = 'login';
         //FORM
         ?>
         <form action="login.php" method="post">
-          <ul>
-            <br>
               <input type="text" name="username" placeholder="Username" required/>
-            <br>
               <input type="password" name="password" placeholder="Password" required/>
-            <br>
               <button name="login" type="submit">Log In</button>
-          </ul>
         </form>
       </div>
 

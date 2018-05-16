@@ -37,7 +37,7 @@ $db=open_or_init_sqlite_db('login.sqlite', "init/init.sql");
     <input type='text' placeholder ='Title' name='Title'>
     <textarea placeholder ='Text' name='Text'></textarea>
     <input type='submit' name='Post' value='Add Post' />
-    </form></div>";
+    </form></div></div>";
     if(isset($_POST['Post'])){
       $Title = $_POST['Title'];
       $Text = $_POST['Text'];
