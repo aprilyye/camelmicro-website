@@ -1,9 +1,15 @@
-/* font-family: 'Roboto', sans-serif; */
-@import url(http://fonts.googleapis.com/css?family=Roboto:900,400,700,400italic,500,300,100,100italic);
-/* font-family: 'Montserrat', sans-serif; */
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-
+@font-face {
+font-family:"roboto";
+src: url("/fonts/roboto/Roboto-Light.ttf");
+}
+@font-face {
+font-family:"robotoreg";
+src: url("/fonts/roboto/Roboto-Regular.ttf");
+}
+@font-face {
+font-family:"Montserrat";
+src: url("/fonts/Montserrat-Regular.otf");
+}
 
 h3 {
   text-align: left;
@@ -48,6 +54,7 @@ nav a{
   /* padding-left: 5px;
   padding-right: 5px; */
   border-radius: 6px;
+  font-family: 'robotoreg';
   padding: 10px;
   color:blue;
   text-decoration: none;
@@ -405,4 +412,20 @@ p{
 
 .divide hr {
   color: black;
+}
+
+div.gallery {
+    margin: 50px;
+    float: left;
+    width: 510px;
+    height:350px;
+    border: 1px solid #ccc;
+}
+
+div.gallery img {
+    width: 490px;
+    height: 350px;
+}
+td a {
+display:block; line-height:45px;
 }

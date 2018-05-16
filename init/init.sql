@@ -18,17 +18,18 @@ CREATE TABLE `applications` (
 	`image`	TEXT
 );
 
-INSERT INTO applications (name,image) VALUES ('Automotive','1.jpg');
-INSERT INTO applications (name,image) VALUES ('Industrial','2.jpg');
-INSERT INTO applications (name,image) VALUES ('Military and Aerospace','3.jpg');
-INSERT INTO applications (name,image) VALUES ('Power Supply','4.jpg');
-INSERT INTO applications (name,image) VALUES ('Computing and Peripherals','5.jpg');
-INSERT INTO applications (name,image) VALUES ('LED Lighting','6.jpg');
-INSERT INTO applications (name,image) VALUES ('Consumer','7.jpg');
-INSERT INTO applications (name,image) VALUES ('Medical','1.jpg');
-INSERT INTO applications (name,image) VALUES ('Portable and Wireless','2.jpg');
-INSERT INTO applications (name,image) VALUES ('Motor Control','3.jpg');
-INSERT INTO applications (name,image) VALUES ('Networking and Telecommunications','4.jpg');
+INSERT INTO applications (name,image) VALUES ('Automotive','auto1.png');
+INSERT INTO applications (name,image) VALUES ('Automotive','auto2.png');
+INSERT INTO applications (name,image) VALUES ('Automotive','auto3.png');
+INSERT INTO applications (name,image) VALUES ('Automotive','auto4.png');
+INSERT INTO applications (name,image) VALUES ('Automotive','auto5.png');
+INSERT INTO applications (name,image) VALUES ('Automotive','auto6.png');
+INSERT INTO applications (name,image) VALUES ('Industrial','i2.png');
+INSERT INTO applications (name,image) VALUES ('Consumer','c1.png');
+INSERT INTO applications (name,image) VALUES ('Consumer','c2.png');
+INSERT INTO applications (name,image) VALUES ('Medical','m1.png');
+INSERT INTO applications (name,image) VALUES ('Motor Control','mc1.jpg');
+INSERT INTO applications (name,image) VALUES ('Motor Control','mc2.jpg');
 
 CREATE TABLE blog (
 	ID1	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
